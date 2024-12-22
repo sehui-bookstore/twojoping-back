@@ -2,7 +2,7 @@ package com.nhnacademy.twojopingback.global.config;
 
 import com.netflix.appinfo.ApplicationInfoManager;
 import com.netflix.appinfo.InstanceInfo;
-import com.nhnacademy.bookstore.global.actuator.ApplicationStatus;
+import com.nhnacademy.twojopingback.global.actuator.ApplicationStatus;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.PostMapping;
