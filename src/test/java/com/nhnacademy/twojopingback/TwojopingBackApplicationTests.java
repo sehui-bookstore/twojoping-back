@@ -1,0 +1,13 @@
+package com.nhnacademy.twojopingback;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class TwojopingBackApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
