@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.point.dto.response;
 
-import com.nhnacademy.bookstore.user.member.entity.Member;
+import com.nhnacademy.twojopingback.user.member.entity.Member;
 
 import java.util.List;
 

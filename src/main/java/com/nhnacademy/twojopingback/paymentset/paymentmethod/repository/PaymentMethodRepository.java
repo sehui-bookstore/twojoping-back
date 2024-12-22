@@ -1,7 +1,7 @@
 package com.nhnacademy.twojopingback.paymentset.paymentmethod.repository;
 
-import com.nhnacademy.bookstore.paymentset.paymentmethod.entity.PaymentMethod;
-import com.nhnacademy.bookstore.paymentset.paymentmethod.enums.PaymentMethodType;
+import com.nhnacademy.twojopingback.paymentset.paymentmethod.entity.PaymentMethod;
+import com.nhnacademy.twojopingback.paymentset.paymentmethod.enums.PaymentMethodType;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

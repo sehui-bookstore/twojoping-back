@@ -8,13 +8,13 @@ package com.nhnacademy.twojopingback.bookset.publisher.service;
      * @date : 2024.10.23
      */
 
-import com.nhnacademy.bookstore.bookset.publisher.dto.request.PublisherRequestDto;
-import com.nhnacademy.bookstore.bookset.publisher.dto.response.PublisherCreateResponseDto;
-import com.nhnacademy.bookstore.bookset.publisher.dto.response.PublisherResponseDto;
-import com.nhnacademy.bookstore.bookset.publisher.entity.Publisher;
-import com.nhnacademy.bookstore.bookset.publisher.exception.PublisherAlreadyExistException;
-import com.nhnacademy.bookstore.bookset.publisher.exception.PublisherNotFoundException;
-import com.nhnacademy.bookstore.bookset.publisher.repository.PublisherRepository;
+import com.nhnacademy.twojopingback.bookset.publisher.dto.request.PublisherRequestDto;
+import com.nhnacademy.twojopingback.bookset.publisher.dto.response.PublisherCreateResponseDto;
+import com.nhnacademy.twojopingback.bookset.publisher.dto.response.PublisherResponseDto;
+import com.nhnacademy.twojopingback.bookset.publisher.entity.Publisher;
+import com.nhnacademy.twojopingback.bookset.publisher.exception.PublisherAlreadyExistException;
+import com.nhnacademy.twojopingback.bookset.publisher.exception.PublisherNotFoundException;
+import com.nhnacademy.twojopingback.bookset.publisher.repository.PublisherRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

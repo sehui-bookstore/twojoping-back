@@ -1,10 +1,10 @@
 package com.nhnacademy.twojopingback.user.member.service;
 
-import com.nhnacademy.bookstore.user.member.dto.request.AddressUpdateRequestDto;
-import com.nhnacademy.bookstore.user.member.dto.request.MemberAddressRequestDto;
-import com.nhnacademy.bookstore.user.member.dto.response.address.AddressDeleteResponseDto;
-import com.nhnacademy.bookstore.user.member.dto.response.address.AddressUpdateResponseDto;
-import com.nhnacademy.bookstore.user.member.dto.response.address.MemberAddressResponseDto;
+import com.nhnacademy.twojopingback.user.member.dto.request.AddressUpdateRequestDto;
+import com.nhnacademy.twojopingback.user.member.dto.request.MemberAddressRequestDto;
+import com.nhnacademy.twojopingback.user.member.dto.response.address.AddressDeleteResponseDto;
+import com.nhnacademy.twojopingback.user.member.dto.response.address.AddressUpdateResponseDto;
+import com.nhnacademy.twojopingback.user.member.dto.response.address.MemberAddressResponseDto;
 
 import java.util.List;
 

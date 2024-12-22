@@ -1,11 +1,11 @@
 package com.nhnacademy.twojopingback.user.member.repository.impl;
 
-import com.nhnacademy.bookstore.common.error.enums.RedirectType;
-import com.nhnacademy.bookstore.common.error.exception.user.member.status.MemberNothingToUpdateException;
-import com.nhnacademy.bookstore.user.member.dto.request.MemberUpdateRequesteDto;
-import com.nhnacademy.bookstore.user.member.dto.response.MemberUpdateResponseDto;
-import com.nhnacademy.bookstore.user.member.entity.QMember;
-import com.nhnacademy.bookstore.user.member.repository.MemberQuerydslRepository;
+import com.nhnacademy.twojopingback.global.error.enums.RedirectType;
+import com.nhnacademy.twojopingback.global.error.exception.user.member.status.MemberNothingToUpdateException;
+import com.nhnacademy.twojopingback.user.member.dto.request.MemberUpdateRequesteDto;
+import com.nhnacademy.twojopingback.user.member.dto.response.MemberUpdateResponseDto;
+import com.nhnacademy.twojopingback.user.member.entity.QMember;
+import com.nhnacademy.twojopingback.user.member.repository.MemberQuerydslRepository;
 import com.querydsl.core.types.Projections;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import com.querydsl.jpa.impl.JPAUpdateClause;

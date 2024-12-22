@@ -1,7 +1,7 @@
 package com.nhnacademy.twojopingback.bookset.contributor.mapper;
 
-import com.nhnacademy.bookstore.bookset.contributor.dto.response.ContributorRoleResponseDto;
-import com.nhnacademy.bookstore.bookset.contributor.entity.ContributorRole;
+import com.nhnacademy.twojopingback.bookset.contributor.dto.response.ContributorRoleResponseDto;
+import com.nhnacademy.twojopingback.bookset.contributor.entity.ContributorRole;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")

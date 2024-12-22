@@ -1,12 +1,12 @@
 package com.nhnacademy.twojopingback.bookset.contributor.service.impl;
 
-import com.nhnacademy.bookstore.bookset.contributor.dto.request.ContributorRoleRequestDto;
-import com.nhnacademy.bookstore.bookset.contributor.dto.response.ContributorRoleResponseDto;
-import com.nhnacademy.bookstore.bookset.contributor.entity.ContributorRole;
-import com.nhnacademy.bookstore.bookset.contributor.mapper.ContributorRoleMapper;
-import com.nhnacademy.bookstore.bookset.contributor.repository.ContributorRoleRepository;
-import com.nhnacademy.bookstore.bookset.contributor.service.ContributorRoleService;
-import com.nhnacademy.bookstore.common.error.exception.bookset.contributor.ContributorRoleNotFoundException;
+import com.nhnacademy.twojopingback.bookset.contributor.dto.request.ContributorRoleRequestDto;
+import com.nhnacademy.twojopingback.bookset.contributor.dto.response.ContributorRoleResponseDto;
+import com.nhnacademy.twojopingback.bookset.contributor.entity.ContributorRole;
+import com.nhnacademy.twojopingback.bookset.contributor.mapper.ContributorRoleMapper;
+import com.nhnacademy.twojopingback.bookset.contributor.repository.ContributorRoleRepository;
+import com.nhnacademy.twojopingback.bookset.contributor.service.ContributorRoleService;
+import com.nhnacademy.twojopingback.global.error.exception.bookset.contributor.ContributorRoleNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -24,6 +24,7 @@ import java.util.stream.Collectors;
 @Service
 @RequiredArgsConstructor
 public class ContributorRoleServiceImpl implements ContributorRoleService {
+
     private final ContributorRoleRepository contributorRoleRepository;
     private final ContributorRoleMapper contributorRoleMapper;
 

@@ -1,10 +1,10 @@
 package com.nhnacademy.twojopingback.orderset.orderdetail.repository;
 
-import com.nhnacademy.bookstore.bookset.book.entity.QBook;
-import com.nhnacademy.bookstore.orderset.order.entity.QOrder;
-import com.nhnacademy.bookstore.orderset.orderdetail.dto.response.OrderDetailResponseDto;
-import com.nhnacademy.bookstore.orderset.orderdetail.entity.OrderDetail;
-import com.nhnacademy.bookstore.orderset.orderdetail.entity.QOrderDetail;
+import com.nhnacademy.twojopingback.bookset.book.entity.QBook;
+import com.nhnacademy.twojopingback.orderset.order.entity.QOrder;
+import com.nhnacademy.twojopingback.orderset.orderdetail.dto.response.OrderDetailResponseDto;
+import com.nhnacademy.twojopingback.orderset.orderdetail.entity.OrderDetail;
+import com.nhnacademy.twojopingback.orderset.orderdetail.entity.QOrderDetail;
 import com.querydsl.core.types.OrderSpecifier;
 import com.querydsl.core.types.Projections;
 import com.querydsl.jpa.JPQLQuery;

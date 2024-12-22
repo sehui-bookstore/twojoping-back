@@ -1,10 +1,10 @@
 package com.nhnacademy.twojopingback.bookset.contributor.controller;
 
-import com.nhnacademy.bookstore.bookset.contributor.dto.request.ContributorRoleRequestDto;
-import com.nhnacademy.bookstore.bookset.contributor.dto.response.ContributorRoleResponseDto;
-import com.nhnacademy.bookstore.bookset.contributor.service.ContributorRoleService;
-import com.nhnacademy.bookstore.common.annotation.ValidPathVariable;
-import com.nhnacademy.bookstore.common.error.exception.bookset.contributor.ContributorRoleNotFoundException;
+import com.nhnacademy.twojopingback.bookset.contributor.dto.request.ContributorRoleRequestDto;
+import com.nhnacademy.twojopingback.bookset.contributor.dto.response.ContributorRoleResponseDto;
+import com.nhnacademy.twojopingback.bookset.contributor.service.ContributorRoleService;
+import com.nhnacademy.twojopingback.global.annotation.ValidPathVariable;
+import com.nhnacademy.twojopingback.global.error.exception.bookset.contributor.ContributorRoleNotFoundException;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;

@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.coupon.repository.policy;
 
-import com.nhnacademy.bookstore.coupon.entity.CouponPolicy;
+import com.nhnacademy.twojopingback.coupon.entity.CouponPolicy;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.point.repository;
 
-import com.nhnacademy.bookstore.point.entity.PointType;
+import com.nhnacademy.twojopingback.point.entity.PointType;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

@@ -1,8 +1,8 @@
 package com.nhnacademy.twojopingback.review.entity;
 
-import com.nhnacademy.bookstore.bookset.book.entity.Book;
-import com.nhnacademy.bookstore.orderset.orderdetail.entity.OrderDetail;
-import com.nhnacademy.bookstore.user.member.entity.Member;
+import com.nhnacademy.twojopingback.bookset.book.entity.Book;
+import com.nhnacademy.twojopingback.orderset.orderdetail.entity.OrderDetail;
+import com.nhnacademy.twojopingback.user.member.entity.Member;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

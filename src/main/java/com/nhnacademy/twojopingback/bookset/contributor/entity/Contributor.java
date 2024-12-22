@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.bookset.contributor.entity;
 
-import com.nhnacademy.bookstore.bookset.contributor.dto.request.ContributorRequestDto;
+import com.nhnacademy.twojopingback.bookset.contributor.dto.request.ContributorRequestDto;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

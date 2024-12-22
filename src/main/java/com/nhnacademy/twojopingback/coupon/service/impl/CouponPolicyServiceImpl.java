@@ -1,14 +1,14 @@
 package com.nhnacademy.twojopingback.coupon.service.impl;
 
 
-import com.nhnacademy.bookstore.common.error.enums.RedirectType;
-import com.nhnacademy.bookstore.common.error.exception.coupon.CouponPolicyNotFoundException;
-import com.nhnacademy.bookstore.coupon.dto.request.CreateCouponPolicyRequest;
-import com.nhnacademy.bookstore.coupon.dto.request.UpdateCouponPolicyRequest;
-import com.nhnacademy.bookstore.coupon.dto.response.CouponPolicyResponseDto;
-import com.nhnacademy.bookstore.coupon.entity.CouponPolicy;
-import com.nhnacademy.bookstore.coupon.repository.policy.CouponPolicyRepository;
-import com.nhnacademy.bookstore.coupon.service.CouponPolicyService;
+import com.nhnacademy.twojopingback.global.error.enums.RedirectType;
+import com.nhnacademy.twojopingback.global.error.exception.coupon.CouponPolicyNotFoundException;
+import com.nhnacademy.twojopingback.coupon.dto.request.CreateCouponPolicyRequest;
+import com.nhnacademy.twojopingback.coupon.dto.request.UpdateCouponPolicyRequest;
+import com.nhnacademy.twojopingback.coupon.dto.response.CouponPolicyResponseDto;
+import com.nhnacademy.twojopingback.coupon.entity.CouponPolicy;
+import com.nhnacademy.twojopingback.coupon.repository.policy.CouponPolicyRepository;
+import com.nhnacademy.twojopingback.coupon.service.CouponPolicyService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

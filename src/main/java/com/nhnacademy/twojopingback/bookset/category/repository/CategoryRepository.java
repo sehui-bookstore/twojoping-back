@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.bookset.category.repository;
 
-import com.nhnacademy.bookstore.bookset.category.entity.Category;
+import com.nhnacademy.twojopingback.bookset.category.entity.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

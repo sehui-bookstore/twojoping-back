@@ -1,13 +1,13 @@
 package com.nhnacademy.twojopingback.cart.controller;
 
-import com.nhnacademy.bookstore.bookset.book.dto.response.BookResponseDto;
-import com.nhnacademy.bookstore.bookset.book.service.BookService;
-import com.nhnacademy.bookstore.cart.dto.CartDeleteDto;
-import com.nhnacademy.bookstore.cart.dto.CartRequestDto;
-import com.nhnacademy.bookstore.cart.dto.CartResponseDto;
-import com.nhnacademy.bookstore.cart.dto.CartUpdateDto;
-import com.nhnacademy.bookstore.cart.entity.CartId;
-import com.nhnacademy.bookstore.cart.service.CartService;
+import com.nhnacademy.twojopingback.bookset.book.dto.response.BookResponseDto;
+import com.nhnacademy.twojopingback.bookset.book.service.BookService;
+import com.nhnacademy.twojopingback.cart.dto.CartDeleteDto;
+import com.nhnacademy.twojopingback.cart.dto.CartRequestDto;
+import com.nhnacademy.twojopingback.cart.dto.CartResponseDto;
+import com.nhnacademy.twojopingback.cart.dto.CartUpdateDto;
+import com.nhnacademy.twojopingback.cart.entity.CartId;
+import com.nhnacademy.twojopingback.cart.service.CartService;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.redis.core.RedisTemplate;

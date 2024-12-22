@@ -7,7 +7,7 @@ package com.nhnacademy.twojopingback.point.dto.request;
  * @date : 2024-11-18
  */
 
-import com.nhnacademy.bookstore.point.enums.PointTypeEnum;
+import com.nhnacademy.twojopingback.point.enums.PointTypeEnum;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;

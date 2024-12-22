@@ -1,9 +1,9 @@
 package com.nhnacademy.twojopingback.coupon.service;
 
 
-import com.nhnacademy.bookstore.coupon.dto.request.CreateCouponPolicyRequest;
-import com.nhnacademy.bookstore.coupon.dto.request.UpdateCouponPolicyRequest;
-import com.nhnacademy.bookstore.coupon.dto.response.CouponPolicyResponseDto;
+import com.nhnacademy.twojopingback.coupon.dto.request.CreateCouponPolicyRequest;
+import com.nhnacademy.twojopingback.coupon.dto.request.UpdateCouponPolicyRequest;
+import com.nhnacademy.twojopingback.coupon.dto.response.CouponPolicyResponseDto;
 
 import java.util.List;
 

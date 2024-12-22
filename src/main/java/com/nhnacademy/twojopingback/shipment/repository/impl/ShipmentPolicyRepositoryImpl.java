@@ -1,10 +1,10 @@
 package com.nhnacademy.twojopingback.shipment.repository.impl;
 
-import com.nhnacademy.bookstore.shipment.dto.response.ShipmentPolicyResponseDto;
-import com.nhnacademy.bookstore.shipment.dto.response.ShippingFeeResponseDto;
-import com.nhnacademy.bookstore.shipment.entity.QShipmentPolicy;
-import com.nhnacademy.bookstore.shipment.entity.ShipmentPolicy;
-import com.nhnacademy.bookstore.shipment.repository.ShipmentPolicyRepositoryCustom;
+import com.nhnacademy.twojopingback.shipment.dto.response.ShipmentPolicyResponseDto;
+import com.nhnacademy.twojopingback.shipment.dto.response.ShippingFeeResponseDto;
+import com.nhnacademy.twojopingback.shipment.entity.QShipmentPolicy;
+import com.nhnacademy.twojopingback.shipment.entity.ShipmentPolicy;
+import com.nhnacademy.twojopingback.shipment.repository.ShipmentPolicyRepositoryCustom;
 import com.querydsl.core.types.Projections;
 import org.springframework.data.jpa.repository.support.QuerydslRepositorySupport;
 

@@ -35,7 +35,7 @@
     </appender>
 
     <!-- 특정 패키지에 대한 로그 레벨 설정 -->
-    <logger name="com.nhnacademy.bookstore.common" level="INFO">
+    <logger name="com.nhnacademy.twojopingback.global.error" level="INFO">
         <appender-ref ref="CONSOLE"/>
         <appender-ref ref="FILE"/>
     </logger>

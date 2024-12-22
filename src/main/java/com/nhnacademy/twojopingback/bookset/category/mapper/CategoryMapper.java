@@ -1,8 +1,8 @@
 package com.nhnacademy.twojopingback.bookset.category.mapper;
 
-import com.nhnacademy.bookstore.bookset.category.dto.response.CategoryIsActiveResponseDto;
-import com.nhnacademy.bookstore.bookset.category.dto.response.CategoryResponseDto;
-import com.nhnacademy.bookstore.bookset.category.entity.Category;
+import com.nhnacademy.twojopingback.bookset.category.dto.response.CategoryIsActiveResponseDto;
+import com.nhnacademy.twojopingback.bookset.category.dto.response.CategoryResponseDto;
+import com.nhnacademy.twojopingback.bookset.category.entity.Category;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
