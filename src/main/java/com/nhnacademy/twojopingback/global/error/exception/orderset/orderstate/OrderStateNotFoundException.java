@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.global.error.exception.orderset.orderstate;
 
-import com.nhnacademy.bookstore.common.error.exception.base.NotFoundException;
+import com.nhnacademy.twojopingback.global.error.exception.base.NotFoundException;
 
 public class OrderStateNotFoundException extends NotFoundException {
 

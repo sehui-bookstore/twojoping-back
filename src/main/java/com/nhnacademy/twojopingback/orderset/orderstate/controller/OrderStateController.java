@@ -1,9 +1,9 @@
 package com.nhnacademy.twojopingback.orderset.orderstate.controller;
 
-import com.nhnacademy.bookstore.orderset.orderstate.dto.request.CreateOrderStateRequest;
-import com.nhnacademy.bookstore.orderset.orderstate.dto.request.UpdateOrderStateRequest;
-import com.nhnacademy.bookstore.orderset.orderstate.dto.response.GetOrderStateResponse;
-import com.nhnacademy.bookstore.orderset.orderstate.service.OrderStateService;
+import com.nhnacademy.twojopingback.orderset.orderstate.dto.request.CreateOrderStateRequest;
+import com.nhnacademy.twojopingback.orderset.orderstate.dto.request.UpdateOrderStateRequest;
+import com.nhnacademy.twojopingback.orderset.orderstate.dto.response.GetOrderStateResponse;
+import com.nhnacademy.twojopingback.orderset.orderstate.service.OrderStateService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

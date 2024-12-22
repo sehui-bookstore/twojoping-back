@@ -1,11 +1,11 @@
 package com.nhnacademy.twojopingback.orderset.orderstate.service;
 
-import com.nhnacademy.bookstore.common.error.exception.orderset.orderstate.OrderStateNotFoundException;
-import com.nhnacademy.bookstore.orderset.orderstate.dto.request.CreateOrderStateRequest;
-import com.nhnacademy.bookstore.orderset.orderstate.dto.request.UpdateOrderStateRequest;
-import com.nhnacademy.bookstore.orderset.orderstate.dto.response.GetOrderStateResponse;
-import com.nhnacademy.bookstore.orderset.orderstate.entity.OrderState;
-import com.nhnacademy.bookstore.orderset.orderstate.repository.OrderStateRepository;
+import com.nhnacademy.twojopingback.global.error.exception.orderset.orderstate.OrderStateNotFoundException;
+import com.nhnacademy.twojopingback.orderset.orderstate.dto.request.CreateOrderStateRequest;
+import com.nhnacademy.twojopingback.orderset.orderstate.dto.request.UpdateOrderStateRequest;
+import com.nhnacademy.twojopingback.orderset.orderstate.dto.response.GetOrderStateResponse;
+import com.nhnacademy.twojopingback.orderset.orderstate.entity.OrderState;
+import com.nhnacademy.twojopingback.orderset.orderstate.repository.OrderStateRepository;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

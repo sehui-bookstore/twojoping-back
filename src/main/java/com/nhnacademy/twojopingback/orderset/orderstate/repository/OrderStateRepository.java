@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.orderset.orderstate.repository;
 
-import com.nhnacademy.bookstore.orderset.orderstate.entity.OrderState;
+import com.nhnacademy.twojopingback.orderset.orderstate.entity.OrderState;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

@@ -1,13 +1,7 @@
 package com.nhnacademy.twojopingback.orderset.orderstate.entity;
 
-/**
- * 주문상태 Entity
- *
- * @author : 이유현
- * @date : 2024-10-22
- */
-import com.nhnacademy.bookstore.orderset.orderstate.converter.OrderStateTypeConverter;
-import com.nhnacademy.bookstore.orderset.orderstate.entity.vo.OrderStateType;
+import com.nhnacademy.twojopingback.orderset.orderstate.converter.OrderStateTypeConverter;
+import com.nhnacademy.twojopingback.orderset.orderstate.entity.vo.OrderStateType;
 import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Getter;

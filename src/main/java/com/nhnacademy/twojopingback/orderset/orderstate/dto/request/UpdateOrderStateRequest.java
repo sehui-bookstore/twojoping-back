@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.orderset.orderstate.dto.request;
 
-import com.nhnacademy.bookstore.orderset.orderstate.entity.vo.OrderStateType;
+import com.nhnacademy.twojopingback.orderset.orderstate.entity.vo.OrderStateType;
 import jakarta.validation.constraints.NotNull;
 
 public record UpdateOrderStateRequest(

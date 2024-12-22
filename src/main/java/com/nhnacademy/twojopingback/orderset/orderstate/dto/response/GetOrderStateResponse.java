@@ -1,7 +1,7 @@
 package com.nhnacademy.twojopingback.orderset.orderstate.dto.response;
 
-import com.nhnacademy.bookstore.orderset.orderstate.entity.OrderState;
-import com.nhnacademy.bookstore.orderset.orderstate.entity.vo.OrderStateType;
+import com.nhnacademy.twojopingback.orderset.orderstate.entity.OrderState;
+import com.nhnacademy.twojopingback.orderset.orderstate.entity.vo.OrderStateType;
 
 public record GetOrderStateResponse(
 
