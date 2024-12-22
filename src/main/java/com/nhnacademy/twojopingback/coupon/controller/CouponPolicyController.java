@@ -1,11 +1,11 @@
 package com.nhnacademy.twojopingback.coupon.controller;
 
 
-import com.nhnacademy.bookstore.common.annotation.ValidPathVariable;
-import com.nhnacademy.bookstore.coupon.dto.request.CreateCouponPolicyRequest;
-import com.nhnacademy.bookstore.coupon.dto.request.UpdateCouponPolicyRequest;
-import com.nhnacademy.bookstore.coupon.dto.response.CouponPolicyResponseDto;
-import com.nhnacademy.bookstore.coupon.service.CouponPolicyService;
+import com.nhnacademy.twojopingback.common.annotation.ValidPathVariable;
+import com.nhnacademy.twojopingback.coupon.dto.request.CreateCouponPolicyRequest;
+import com.nhnacademy.twojopingback.coupon.dto.request.UpdateCouponPolicyRequest;
+import com.nhnacademy.twojopingback.coupon.dto.response.CouponPolicyResponseDto;
+import com.nhnacademy.twojopingback.coupon.service.CouponPolicyService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

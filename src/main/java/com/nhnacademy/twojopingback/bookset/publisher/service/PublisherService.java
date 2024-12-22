@@ -6,9 +6,9 @@ package com.nhnacademy.twojopingback.bookset.publisher.service;
  * @date : 2024.10.23
  */
 
-import com.nhnacademy.bookstore.bookset.publisher.dto.request.PublisherRequestDto;
-import com.nhnacademy.bookstore.bookset.publisher.dto.response.PublisherCreateResponseDto;
-import com.nhnacademy.bookstore.bookset.publisher.dto.response.PublisherResponseDto;
+import com.nhnacademy.twojopingback.bookset.publisher.dto.request.PublisherRequestDto;
+import com.nhnacademy.twojopingback.bookset.publisher.dto.response.PublisherCreateResponseDto;
+import com.nhnacademy.twojopingback.bookset.publisher.dto.response.PublisherResponseDto;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

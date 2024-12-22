@@ -1,10 +1,10 @@
 package com.nhnacademy.twojopingback.like.repository.impl;
 
-import com.nhnacademy.bookstore.bookset.book.entity.QBook;
-import com.nhnacademy.bookstore.imageset.entity.QBookImage;
-import com.nhnacademy.bookstore.like.dto.response.MemberLikeResponseDto;
-import com.nhnacademy.bookstore.like.entity.QLike;
-import com.nhnacademy.bookstore.like.repository.LikeQuerydslRepository;
+import com.nhnacademy.twojopingback.bookset.book.entity.QBook;
+import com.nhnacademy.twojopingback.imageset.entity.QBookImage;
+import com.nhnacademy.twojopingback.like.dto.response.MemberLikeResponseDto;
+import com.nhnacademy.twojopingback.like.entity.QLike;
+import com.nhnacademy.twojopingback.like.repository.LikeQuerydslRepository;
 import com.querydsl.core.types.Projections;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import lombok.RequiredArgsConstructor;

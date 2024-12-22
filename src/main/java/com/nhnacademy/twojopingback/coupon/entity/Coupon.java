@@ -1,8 +1,7 @@
 package com.nhnacademy.twojopingback.coupon.entity;
 
-
-import com.nhnacademy.bookstore.coupon.dto.request.CouponRequestDto;
-import com.nhnacademy.bookstore.coupon.entity.member.MemberCoupon;
+import com.nhnacademy.twojopingback.coupon.dto.request.CouponRequestDto;
+import com.nhnacademy.twojopingback.coupon.entity.member.MemberCoupon;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

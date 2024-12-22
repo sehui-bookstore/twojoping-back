@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.coupon.entity;
 
-import com.nhnacademy.bookstore.coupon.enums.DiscountType;
+import com.nhnacademy.twojopingback.coupon.enums.DiscountType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,9 +1,9 @@
 package com.nhnacademy.twojopingback.shipment.controller;
 
-import com.nhnacademy.bookstore.common.annotation.ValidPathVariable;
-import com.nhnacademy.bookstore.shipment.dto.request.ShipmentRequestDto;
-import com.nhnacademy.bookstore.shipment.dto.response.ShipmentResponseDto;
-import com.nhnacademy.bookstore.shipment.service.ShipmentService;
+import com.nhnacademy.twojopingback.global.annotation.ValidPathVariable;
+import com.nhnacademy.twojopingback.shipment.dto.request.ShipmentRequestDto;
+import com.nhnacademy.twojopingback.shipment.dto.response.ShipmentResponseDto;
+import com.nhnacademy.twojopingback.shipment.service.ShipmentService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;

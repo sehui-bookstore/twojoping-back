@@ -1,8 +1,8 @@
 package com.nhnacademy.twojopingback.bookset.contributor.mapper;
 
-import com.nhnacademy.bookstore.bookset.contributor.dto.response.ContributorIsActiveResponseDto;
-import com.nhnacademy.bookstore.bookset.contributor.dto.response.ContributorResponseDto;
-import com.nhnacademy.bookstore.bookset.contributor.entity.Contributor;
+import com.nhnacademy.twojopingback.bookset.contributor.dto.response.ContributorIsActiveResponseDto;
+import com.nhnacademy.twojopingback.bookset.contributor.dto.response.ContributorResponseDto;
+import com.nhnacademy.twojopingback.bookset.contributor.entity.Contributor;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

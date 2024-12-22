@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.orderset.orderdetail.repository;
 
-import com.nhnacademy.bookstore.orderset.orderdetail.dto.response.OrderDetailResponseDto;
+import com.nhnacademy.twojopingback.orderset.orderdetail.dto.response.OrderDetailResponseDto;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.NoRepositoryBean;

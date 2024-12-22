@@ -1,8 +1,8 @@
 package com.nhnacademy.twojopingback.bookset.book.dto.request;
 
-import com.nhnacademy.bookstore.bookset.book.entity.Book;
-import com.nhnacademy.bookstore.bookset.contributor.entity.Contributor;
-import com.nhnacademy.bookstore.bookset.contributor.entity.ContributorRole;
+import com.nhnacademy.twojopingback.bookset.book.entity.Book;
+import com.nhnacademy.twojopingback.bookset.contributor.entity.Contributor;
+import com.nhnacademy.twojopingback.bookset.contributor.entity.ContributorRole;
 import lombok.*;
 
 /**

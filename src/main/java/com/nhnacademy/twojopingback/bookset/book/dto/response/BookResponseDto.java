@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.bookset.book.dto.response;
 
-import com.nhnacademy.bookstore.review.dto.response.ReviewResponseDto;
+import com.nhnacademy.twojopingback.review.dto.response.ReviewResponseDto;
 import jakarta.validation.constraints.Positive;
 
 import java.time.LocalDate;

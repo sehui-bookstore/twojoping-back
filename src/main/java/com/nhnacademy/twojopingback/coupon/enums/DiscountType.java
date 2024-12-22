@@ -9,5 +9,7 @@ package com.nhnacademy.twojopingback.coupon.enums;
  * @since 1.0
  */
 public enum DiscountType {
-    PERCENT, ACTUAL
+
+    PERCENT,
+    ACTUAL
 }

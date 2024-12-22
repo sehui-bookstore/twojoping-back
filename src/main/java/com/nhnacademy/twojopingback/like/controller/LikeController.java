@@ -1,9 +1,9 @@
 package com.nhnacademy.twojopingback.like.controller;
 
-import com.nhnacademy.bookstore.like.dto.LikeRequestDto;
-import com.nhnacademy.bookstore.like.dto.LikeResponseDto;
-import com.nhnacademy.bookstore.like.dto.response.MemberLikeResponseDto;
-import com.nhnacademy.bookstore.like.service.LikeService;
+import com.nhnacademy.twojopingback.like.dto.LikeRequestDto;
+import com.nhnacademy.twojopingback.like.dto.LikeResponseDto;
+import com.nhnacademy.twojopingback.like.dto.response.MemberLikeResponseDto;
+import com.nhnacademy.twojopingback.like.service.LikeService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;

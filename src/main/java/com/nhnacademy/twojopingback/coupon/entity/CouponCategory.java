@@ -1,11 +1,10 @@
 package com.nhnacademy.twojopingback.coupon.entity;
 
-import com.nhnacademy.bookstore.bookset.category.entity.Category;
+import com.nhnacademy.twojopingback.bookset.category.entity.Category;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-
 
 /**
  * CouponCategory 엔티티 클래스
@@ -34,6 +33,4 @@ public class CouponCategory {
     @MapsId("categoryId")
     @JoinColumn(name = "category_id")
     private Category category;
-
-
 }

@@ -20,6 +20,5 @@ public record MemberCouponResponseDto(
         Boolean isUsed,
         LocalDateTime usedDate,
         CouponResponseDto couponResponseDto
-
 ) {
 }

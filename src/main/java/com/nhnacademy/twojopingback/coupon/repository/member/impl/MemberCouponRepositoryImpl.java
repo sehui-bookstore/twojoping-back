@@ -1,10 +1,10 @@
 package com.nhnacademy.twojopingback.coupon.repository.member.impl;
 
-import com.nhnacademy.bookstore.coupon.dto.response.CouponPolicyResponseDto;
-import com.nhnacademy.bookstore.coupon.dto.response.CouponResponseDto;
-import com.nhnacademy.bookstore.coupon.dto.response.MemberCouponResponseDto;
-import com.nhnacademy.bookstore.coupon.dto.response.OrderCouponResponse;
-import com.nhnacademy.bookstore.coupon.repository.member.MemberCouponQuerydslRespository;
+import com.nhnacademy.twojopingback.coupon.dto.response.CouponPolicyResponseDto;
+import com.nhnacademy.twojopingback.coupon.dto.response.CouponResponseDto;
+import com.nhnacademy.twojopingback.coupon.dto.response.MemberCouponResponseDto;
+import com.nhnacademy.twojopingback.coupon.dto.response.OrderCouponResponse;
+import com.nhnacademy.twojopingback.coupon.repository.member.MemberCouponQuerydslRespository;
 import com.querydsl.core.types.Projections;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import lombok.RequiredArgsConstructor;
@@ -13,9 +13,9 @@ import org.springframework.stereotype.Repository;
 import java.time.LocalDateTime;
 import java.util.List;
 
-import static com.nhnacademy.bookstore.coupon.entity.QCoupon.coupon;
-import static com.nhnacademy.bookstore.coupon.entity.QCouponPolicy.couponPolicy;
-import static com.nhnacademy.bookstore.coupon.entity.member.QMemberCoupon.memberCoupon;
+import static com.nhnacademy.twojopingback.coupon.entity.QCoupon.coupon;
+import static com.nhnacademy.twojopingback.coupon.entity.QCouponPolicy.couponPolicy;
+import static com.nhnacademy.twojopingback.coupon.entity.member.QMemberCoupon.memberCoupon;
 
 /**
  * MemberCouponRepositoryImpl

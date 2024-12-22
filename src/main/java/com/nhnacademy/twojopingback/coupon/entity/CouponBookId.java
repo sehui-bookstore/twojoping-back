@@ -26,6 +26,6 @@ import java.io.Serializable;
 public class CouponBookId implements Serializable {
 
     private Long couponId;
-    private Long bookId;
 
+    private Long bookId;
 }

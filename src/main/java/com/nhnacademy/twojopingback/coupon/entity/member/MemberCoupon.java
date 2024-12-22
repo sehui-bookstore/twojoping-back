@@ -1,14 +1,13 @@
 package com.nhnacademy.twojopingback.coupon.entity.member;
 
-import com.nhnacademy.bookstore.coupon.entity.Coupon;
-import com.nhnacademy.bookstore.user.member.entity.Member;
+import com.nhnacademy.twojopingback.coupon.entity.Coupon;
+import com.nhnacademy.twojopingback.user.member.entity.Member;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
-
 
 /**
  * MemberCoupon 엔티티 클래스

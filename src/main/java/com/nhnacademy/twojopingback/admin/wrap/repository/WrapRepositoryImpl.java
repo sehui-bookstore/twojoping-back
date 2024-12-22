@@ -1,8 +1,8 @@
 package com.nhnacademy.twojopingback.admin.wrap.repository;
 
-import com.nhnacademy.bookstore.admin.wrap.dto.response.WrapResponseDto;
-import com.nhnacademy.bookstore.admin.wrap.entity.QWrap;
-import com.nhnacademy.bookstore.admin.wrap.entity.Wrap;
+import com.nhnacademy.twojopingback.admin.wrap.dto.response.WrapResponseDto;
+import com.nhnacademy.twojopingback.admin.wrap.entity.QWrap;
+import com.nhnacademy.twojopingback.admin.wrap.entity.Wrap;
 import com.querydsl.core.types.Projections;
 import org.springframework.data.jpa.repository.support.QuerydslRepositorySupport;
 import org.springframework.stereotype.Repository;

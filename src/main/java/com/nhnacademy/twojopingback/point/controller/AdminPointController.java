@@ -1,11 +1,11 @@
 package com.nhnacademy.twojopingback.point.controller;
 
-import com.nhnacademy.bookstore.point.dto.request.CreatePointTypeRequestDto;
-import com.nhnacademy.bookstore.point.dto.request.UpdatePointTypeRequestDto;
-import com.nhnacademy.bookstore.point.dto.response.GetPointTypeResponse;
-import com.nhnacademy.bookstore.point.dto.response.ReadPointTypeResponseDto;
-import com.nhnacademy.bookstore.point.dto.response.UpdatePointTypeResponseDto;
-import com.nhnacademy.bookstore.point.service.impl.PointTypeServiceImpl;
+import com.nhnacademy.twojopingback.point.dto.request.CreatePointTypeRequestDto;
+import com.nhnacademy.twojopingback.point.dto.request.UpdatePointTypeRequestDto;
+import com.nhnacademy.twojopingback.point.dto.response.GetPointTypeResponse;
+import com.nhnacademy.twojopingback.point.dto.response.ReadPointTypeResponseDto;
+import com.nhnacademy.twojopingback.point.dto.response.UpdatePointTypeResponseDto;
+import com.nhnacademy.twojopingback.point.service.impl.PointTypeServiceImpl;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;

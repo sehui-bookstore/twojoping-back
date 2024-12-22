@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.user.member.dto.request;
 
-import com.nhnacademy.bookstore.user.enums.Gender;
+import com.nhnacademy.twojopingback.user.enums.Gender;
 import jakarta.validation.constraints.*;
 import java.io.Serializable;
 import java.time.LocalDate;

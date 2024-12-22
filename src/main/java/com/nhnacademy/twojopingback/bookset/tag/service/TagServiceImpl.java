@@ -1,17 +1,17 @@
 package com.nhnacademy.twojopingback.bookset.tag.service;
 
 
-import com.nhnacademy.bookstore.bookset.book.entity.Book;
-import com.nhnacademy.bookstore.bookset.book.repository.BookRepository;
-import com.nhnacademy.bookstore.bookset.tag.dto.TagRequestDto;
-import com.nhnacademy.bookstore.bookset.tag.dto.TagResponseDto;
-import com.nhnacademy.bookstore.bookset.tag.entity.BookTag;
-import com.nhnacademy.bookstore.bookset.tag.entity.Tag;
-import com.nhnacademy.bookstore.bookset.tag.repository.BookTagRepository;
-import com.nhnacademy.bookstore.bookset.tag.repository.TagRepository;
-import com.nhnacademy.bookstore.common.error.exception.base.NotFoundException;
-import com.nhnacademy.bookstore.common.error.exception.bookset.tag.TagAlreadyAssignedBookException;
-import com.nhnacademy.bookstore.common.error.exception.bookset.tag.TagNotFoundException;
+import com.nhnacademy.twojopingback.bookset.book.entity.Book;
+import com.nhnacademy.twojopingback.bookset.book.repository.BookRepository;
+import com.nhnacademy.twojopingback.bookset.tag.dto.TagRequestDto;
+import com.nhnacademy.twojopingback.bookset.tag.dto.TagResponseDto;
+import com.nhnacademy.twojopingback.bookset.tag.entity.BookTag;
+import com.nhnacademy.twojopingback.bookset.tag.entity.Tag;
+import com.nhnacademy.twojopingback.bookset.tag.repository.BookTagRepository;
+import com.nhnacademy.twojopingback.bookset.tag.repository.TagRepository;
+import com.nhnacademy.twojopingback.global.error.exception.base.NotFoundException;
+import com.nhnacademy.twojopingback.global.error.exception.bookset.tag.TagAlreadyAssignedBookException;
+import com.nhnacademy.twojopingback.global.error.exception.bookset.tag.TagNotFoundException;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

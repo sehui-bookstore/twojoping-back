@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.refund.service;
 
-import com.nhnacademy.bookstore.refund.dto.response.RefundResponseDto;
+import com.nhnacademy.twojopingback.refund.dto.response.RefundResponseDto;
 
 import java.util.List;
 

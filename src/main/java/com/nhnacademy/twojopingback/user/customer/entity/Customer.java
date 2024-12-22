@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.user.customer.entity;
 
-import com.nhnacademy.bookstore.user.nonmember.entity.NonMember;
+import com.nhnacademy.twojopingback.user.nonmember.entity.NonMember;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,12 +1,12 @@
 package com.nhnacademy.twojopingback.bookset.book.controller;
 
-import com.nhnacademy.bookstore.bookset.book.dto.request.BookCreateRequestDto;
-import com.nhnacademy.bookstore.bookset.book.dto.request.BookUpdateRequestDto;
-import com.nhnacademy.bookstore.bookset.book.dto.response.*;
-import com.nhnacademy.bookstore.bookset.book.service.BookService;
-import com.nhnacademy.bookstore.bookset.publisher.exception.PublisherNotFoundException;
-import com.nhnacademy.bookstore.common.error.exception.bookset.category.CategoryNotFoundException;
-import com.nhnacademy.bookstore.common.error.exception.bookset.contributor.ContributorNotFoundException;
+import com.nhnacademy.twojopingback.bookset.book.dto.request.BookCreateRequestDto;
+import com.nhnacademy.twojopingback.bookset.book.dto.request.BookUpdateRequestDto;
+import com.nhnacademy.twojopingback.bookset.book.dto.response.*;
+import com.nhnacademy.twojopingback.bookset.book.service.BookService;
+import com.nhnacademy.twojopingback.bookset.publisher.exception.PublisherNotFoundException;
+import com.nhnacademy.twojopingback.global.error.exception.bookset.category.CategoryNotFoundException;
+import com.nhnacademy.twojopingback.global.error.exception.bookset.contributor.ContributorNotFoundException;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import lombok.RequiredArgsConstructor;
@@ -30,7 +30,7 @@ import java.util.List;
 
 @Slf4j
 @RestController
-@RequestMapping("/api/v1/bookstore")
+@RequestMapping("/api/v1/twojopingback.")
 @RequiredArgsConstructor
 public class BookController {
 

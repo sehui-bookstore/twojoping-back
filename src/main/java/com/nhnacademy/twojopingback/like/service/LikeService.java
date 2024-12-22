@@ -1,8 +1,8 @@
 package com.nhnacademy.twojopingback.like.service;
 
-import com.nhnacademy.bookstore.like.dto.LikeRequestDto;
-import com.nhnacademy.bookstore.like.dto.LikeResponseDto;
-import com.nhnacademy.bookstore.like.dto.response.MemberLikeResponseDto;
+import com.nhnacademy.twojopingback.like.dto.LikeRequestDto;
+import com.nhnacademy.twojopingback.like.dto.LikeResponseDto;
+import com.nhnacademy.twojopingback.like.dto.response.MemberLikeResponseDto;
 
 import java.util.List;
 

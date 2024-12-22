@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.paymentset.paymentmethod.converter;
 
-import com.nhnacademy.bookstore.paymentset.paymentmethod.enums.PaymentMethodType;
+import com.nhnacademy.twojopingback.paymentset.paymentmethod.enums.PaymentMethodType;
 import jakarta.persistence.AttributeConverter;
 import jakarta.persistence.Converter;
 

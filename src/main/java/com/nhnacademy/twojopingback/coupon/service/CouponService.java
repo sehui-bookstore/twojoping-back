@@ -1,7 +1,7 @@
 package com.nhnacademy.twojopingback.coupon.service;
 
-import com.nhnacademy.bookstore.coupon.dto.request.CouponRequestDto;
-import com.nhnacademy.bookstore.coupon.dto.response.CouponResponseDto;
+import com.nhnacademy.twojopingback.coupon.dto.request.CouponRequestDto;
+import com.nhnacademy.twojopingback.coupon.dto.response.CouponResponseDto;
 
 import java.util.List;
 

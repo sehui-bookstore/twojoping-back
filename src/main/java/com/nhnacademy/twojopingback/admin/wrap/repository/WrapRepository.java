@@ -16,7 +16,7 @@ public interface WrapRepository extends JpaRepository<Wrap, Long>, WrapRepositor
 
     Optional<Wrap> findByName(String name);
 
-    @Query("SELECT new com.nhnacademy.bookstore.admin.wrap.dto.response.WrapUpdateResponseDto(" +
+    @Query("SELECT new com.nhnacademy.twojopingback.admin.wrap.dto.response.WrapUpdateResponseDto(" +
             "w.wrapId, w.name, w.wrapPrice, w.isActive, i.url) " +
             "FROM Wrap w " +
             "JOIN WrapImage wi ON w.wrapId = wi.wrap.wrapId " +

@@ -1,12 +1,10 @@
 package com.nhnacademy.twojopingback.coupon.entity;
 
-
-import com.nhnacademy.bookstore.bookset.book.entity.Book;
+import com.nhnacademy.twojopingback.bookset.book.entity.Book;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-
 
 /**
  * CouponBook 엔티티 클래스
@@ -35,6 +33,4 @@ public class CouponBook {
     @MapsId("bookId")
     @JoinColumn(name = "book_id", nullable = false)
     private Book book;
-
-
 }

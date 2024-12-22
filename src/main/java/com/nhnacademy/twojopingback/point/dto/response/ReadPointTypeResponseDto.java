@@ -1,7 +1,7 @@
 package com.nhnacademy.twojopingback.point.dto.response;
 
-import com.nhnacademy.bookstore.point.entity.PointType;
-import com.nhnacademy.bookstore.point.enums.PointTypeEnum;
+import com.nhnacademy.twojopingback.point.entity.PointType;
+import com.nhnacademy.twojopingback.point.enums.PointTypeEnum;
 
 /**
  * 포인트 타입 ReadPointTypeResponse DTO

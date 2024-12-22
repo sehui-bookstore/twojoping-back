@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.paymentset.status.entity;
 
-import com.nhnacademy.bookstore.paymentset.status.enums.PaymentStatusType;
+import com.nhnacademy.twojopingback.paymentset.status.enums.PaymentStatusType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

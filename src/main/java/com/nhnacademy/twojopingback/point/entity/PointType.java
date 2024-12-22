@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.point.entity;
 
-import com.nhnacademy.bookstore.point.enums.PointTypeEnum;
+import com.nhnacademy.twojopingback.point.enums.PointTypeEnum;
 import jakarta.persistence.*;
 import lombok.*;
 

@@ -1,10 +1,10 @@
 package com.nhnacademy.twojopingback.bookset.category.controller;
 
-import com.nhnacademy.bookstore.bookset.category.dto.request.CategoryRequestDto;
-import com.nhnacademy.bookstore.bookset.category.dto.response.CategoryIsActiveResponseDto;
-import com.nhnacademy.bookstore.bookset.category.dto.response.CategoryResponseDto;
-import com.nhnacademy.bookstore.bookset.category.service.CategoryService;
-import com.nhnacademy.bookstore.common.annotation.ValidPathVariable;
+import com.nhnacademy.twojopingback.bookset.category.dto.request.CategoryRequestDto;
+import com.nhnacademy.twojopingback.bookset.category.dto.response.CategoryIsActiveResponseDto;
+import com.nhnacademy.twojopingback.bookset.category.dto.response.CategoryResponseDto;
+import com.nhnacademy.twojopingback.bookset.category.service.CategoryService;
+import com.nhnacademy.twojopingback.global.annotation.ValidPathVariable;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
