@@ -1,4 +1,4 @@
-package com.nhnacademy.twojopingback.common.error.exception.bookset.category;
+package com.nhnacademy.twojopingback.global.error.exception.bookset.category;
 
 /**
  * 카테고리 Id가 null일 경우 발생시키는 에러

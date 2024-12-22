@@ -1,4 +1,4 @@
-package com.nhnacademy.twojopingback.common.error.exception.bookset.tag;
+package com.nhnacademy.twojopingback.global.error.exception.bookset.tag;
 
 import com.nhnacademy.bookstore.common.error.exception.base.ConflictException;
 

@@ -1,4 +1,4 @@
-package com.nhnacademy.twojopingback.common.dto.response;
+package com.nhnacademy.twojopingback.global.dto.response;
 
 public record SecretResponseDto(
 

@@ -1,4 +1,4 @@
-package com.nhnacademy.twojopingback.common.error.exception.imageset;
+package com.nhnacademy.twojopingback.global.error.exception.imageset;
 
 public class ImageUploadException extends RuntimeException {
     public static final String MESSAGE = "이미지 업로드 중 오류가 발생했습니다.";

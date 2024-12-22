@@ -1,4 +1,4 @@
-package com.nhnacademy.twojopingback.common.error.exception.shipment;
+package com.nhnacademy.twojopingback.global.error.exception.shipment;
 
 import com.nhnacademy.bookstore.common.error.exception.base.NotFoundException;
 

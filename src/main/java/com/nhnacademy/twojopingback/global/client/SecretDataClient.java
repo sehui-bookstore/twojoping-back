@@ -1,6 +1,6 @@
-package com.nhnacademy.twojopingback.common.client;
+package com.nhnacademy.twojopingback.global.client;
 
-import com.nhnacademy.bookstore.common.dto.response.SecretResponseDto;
+import com.nhnacademy.twojopingback.global.dto.response.SecretResponseDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.context.annotation.Profile;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,6 +1,6 @@
-package com.nhnacademy.twojopingback.common.error.exception.base;
+package com.nhnacademy.twojopingback.global.error.exception.base;
 
-import com.nhnacademy.bookstore.common.error.enums.RedirectType;
+import com.nhnacademy.twojopingback.global.error.enums.RedirectType;
 import lombok.Getter;
 
 import java.io.Serializable;

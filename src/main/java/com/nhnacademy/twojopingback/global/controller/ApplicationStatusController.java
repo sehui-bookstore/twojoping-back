@@ -1,4 +1,4 @@
-package com.nhnacademy.twojopingback.global.config;
+package com.nhnacademy.twojopingback.global.controller;
 
 import com.netflix.appinfo.ApplicationInfoManager;
 import com.netflix.appinfo.InstanceInfo;

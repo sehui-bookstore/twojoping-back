@@ -1,4 +1,4 @@
-package com.nhnacademy.twojopingback.common.annotation;
+package com.nhnacademy.twojopingback.global.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

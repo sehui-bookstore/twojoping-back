@@ -1,4 +1,4 @@
-package com.nhnacademy.twojopingback.common.error.enums;
+package com.nhnacademy.twojopingback.global.error.enums;
 
 /**
  * RedirectType
@@ -11,5 +11,8 @@ package com.nhnacademy.twojopingback.common.error.enums;
  * @since 1.0
  */
 public enum RedirectType {
-    REDIRECT, FORWARD, NONE
+
+    REDIRECT,
+    FORWARD,
+    NONE
 }

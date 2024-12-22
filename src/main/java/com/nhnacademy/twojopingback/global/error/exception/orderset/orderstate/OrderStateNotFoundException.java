@@ -1,4 +1,4 @@
-package com.nhnacademy.twojopingback.common.error.exception.orderset.orderstate;
+package com.nhnacademy.twojopingback.global.error.exception.orderset.orderstate;
 
 import com.nhnacademy.bookstore.common.error.exception.base.NotFoundException;
 

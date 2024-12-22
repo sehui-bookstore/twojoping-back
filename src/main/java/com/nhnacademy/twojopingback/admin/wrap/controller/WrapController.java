@@ -5,7 +5,7 @@ import com.nhnacademy.twojopingback.admin.wrap.dto.request.WrapUpdateRequestDto;
 import com.nhnacademy.twojopingback.admin.wrap.dto.response.WrapCreateResponseDto;
 import com.nhnacademy.twojopingback.admin.wrap.dto.response.WrapUpdateResponseDto;
 import com.nhnacademy.twojopingback.admin.wrap.service.WrapService;
-import com.nhnacademy.twojopingback.common.annotation.ValidPathVariable;
+import com.nhnacademy.twojopingback.global.annotation.ValidPathVariable;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;

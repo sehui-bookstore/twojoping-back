@@ -1,9 +1,9 @@
-package com.nhnacademy.twojopingback.common.service;
+package com.nhnacademy.twojopingback.global.service;
 
-import com.nhnacademy.bookstore.common.client.SecretDataClient;
-import com.nhnacademy.bookstore.common.config.properties.MysqlKeyManagerConfig;
-import com.nhnacademy.bookstore.common.dto.response.MysqlKeyResponseDto;
-import com.nhnacademy.bookstore.common.dto.response.SecretResponseDto;
+import com.nhnacademy.twojopingback.global.client.SecretDataClient;
+import com.nhnacademy.twojopingback.global.config.properties.MysqlKeyManagerConfig;
+import com.nhnacademy.twojopingback.global.dto.response.MysqlKeyResponseDto;
+import com.nhnacademy.twojopingback.global.dto.response.SecretResponseDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

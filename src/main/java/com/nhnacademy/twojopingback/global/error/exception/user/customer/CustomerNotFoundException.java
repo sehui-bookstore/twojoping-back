@@ -1,4 +1,4 @@
-package com.nhnacademy.twojopingback.common.error.exception.user.customer;
+package com.nhnacademy.twojopingback.global.error.exception.user.customer;
 
 import com.nhnacademy.bookstore.common.error.enums.RedirectType;
 import com.nhnacademy.bookstore.common.error.exception.base.NotFoundException;

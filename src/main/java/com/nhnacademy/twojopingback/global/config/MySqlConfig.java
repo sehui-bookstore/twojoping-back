@@ -1,7 +1,7 @@
-package com.nhnacademy.twojopingback.common.config;
+package com.nhnacademy.twojopingback.global.config;
 
-import com.nhnacademy.bookstore.common.dto.response.MysqlKeyResponseDto;
-import com.nhnacademy.bookstore.common.service.KeyManagerService;
+import com.nhnacademy.twojopingback.global.dto.response.MysqlKeyResponseDto;
+import com.nhnacademy.twojopingback.global.service.KeyManagerService;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.springframework.context.annotation.Bean;

@@ -1,8 +1,7 @@
-package com.nhnacademy.twojopingback.common.aop.pathvariable;
+package com.nhnacademy.twojopingback.global.aop.pathvariable;
 
-
-import com.nhnacademy.bookstore.common.annotation.ValidPathVariable;
-import com.nhnacademy.bookstore.common.error.common.InvalidPathVariableException;
+import com.nhnacademy.twojopingback.global.annotation.ValidPathVariable;
+import com.nhnacademy.twojopingback.global.error.common.InvalidPathVariableException;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
@@ -21,7 +20,6 @@ import java.lang.reflect.Parameter;
  * @author Luha
  * @since 1.0
  */
-
 @Aspect
 @Component
 public class PathvariableAspect {
@@ -29,7 +27,7 @@ public class PathvariableAspect {
     /**
      * validPathVariableMethods()는 @ValidPathVariable 어노테이션이 적용된 모든 메서드의 포인트컷을 정의합니다.
      */
-    @Pointcut("execution(* com.nhnacademy.bookstore..*(.., @com.nhnacademy.bookstore.common.annotation.ValidPathVariable (*), ..))")
+    @Pointcut("execution(* com.nhnacademy.twojopingback..*(.., @com.nhnacademy.twojopingback.global.annotation.ValidPathVariable (*), ..))")
     public void validPathVariableMethods() {}
 
 

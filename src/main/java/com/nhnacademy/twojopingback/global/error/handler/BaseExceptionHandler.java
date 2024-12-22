@@ -1,7 +1,7 @@
-package com.nhnacademy.twojopingback.common.error.handler;
+package com.nhnacademy.twojopingback.global.error.handler;
 
-import com.nhnacademy.bookstore.common.error.dto.ErrorResponseDto;
-import com.nhnacademy.bookstore.common.error.exception.base.*;
+import com.nhnacademy.twojopingback.global.error.dto.ErrorResponseDto;
+import com.nhnacademy.twojopingback.global.error.exception.base.*;
 import org.springframework.http.ResponseEntity;
 
 /**
@@ -13,6 +13,7 @@ import org.springframework.http.ResponseEntity;
  * @since 1.0
  */
 public interface BaseExceptionHandler {
+
     ResponseEntity<ErrorResponseDto<Object>> handleBadRequestExceptions(BadRequestException ex);
     ResponseEntity<ErrorResponseDto<Object>> handleUnauthorizedExceptions(UnauthorizedException ex);
     ResponseEntity<ErrorResponseDto<Object>> handleForbiddenExceptions(ForbiddenException ex);

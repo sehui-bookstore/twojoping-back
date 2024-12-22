@@ -1,4 +1,4 @@
-package com.nhnacademy.twojopingback.common.error.exception.bookset.contributor;
+package com.nhnacademy.twojopingback.global.error.exception.bookset.contributor;
 
 import com.nhnacademy.bookstore.common.error.exception.base.BadRequestException;
 

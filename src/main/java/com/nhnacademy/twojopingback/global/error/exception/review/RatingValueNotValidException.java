@@ -1,4 +1,4 @@
-package com.nhnacademy.twojopingback.common.error.exception.review;
+package com.nhnacademy.twojopingback.global.error.exception.review;
 
 
 public class RatingValueNotValidException extends RuntimeException  {

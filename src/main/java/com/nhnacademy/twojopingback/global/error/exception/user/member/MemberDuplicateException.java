@@ -1,4 +1,4 @@
-package com.nhnacademy.twojopingback.common.error.exception.user.member;
+package com.nhnacademy.twojopingback.global.error.exception.user.member;
 
 import com.nhnacademy.bookstore.common.error.enums.RedirectType;
 import com.nhnacademy.bookstore.common.error.exception.base.ConflictException;

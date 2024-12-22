@@ -1,4 +1,4 @@
-package com.nhnacademy.twojopingback.common.config;
+package com.nhnacademy.twojopingback.global.config;
 
 
 import com.querydsl.jpa.impl.JPAQueryFactory;

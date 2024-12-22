@@ -5,8 +5,8 @@ import com.nhnacademy.twojopingback.admin.wrap.dto.response.WrapCreateResponseDt
 import com.nhnacademy.twojopingback.admin.wrap.dto.response.WrapUpdateResponseDto;
 import com.nhnacademy.twojopingback.admin.wrap.entity.Wrap;
 import com.nhnacademy.twojopingback.admin.wrap.repository.WrapRepository;
-import com.nhnacademy.twojopingback.common.error.exception.wrap.WrapAlreadyExistException;
-import com.nhnacademy.twojopingback.common.error.exception.wrap.WrapNotFoundException;
+import com.nhnacademy.twojopingback.global.error.exception.wrap.WrapAlreadyExistException;
+import com.nhnacademy.twojopingback.global.error.exception.wrap.WrapNotFoundException;
 import com.nhnacademy.twojopingback.imageset.entity.Image;
 import com.nhnacademy.twojopingback.imageset.entity.WrapImage;
 import com.nhnacademy.twojopingback.imageset.repository.ImageRepository;

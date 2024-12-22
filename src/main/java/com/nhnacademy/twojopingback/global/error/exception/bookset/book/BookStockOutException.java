@@ -1,4 +1,4 @@
-package com.nhnacademy.twojopingback.common.error.exception.bookset.book;
+package com.nhnacademy.twojopingback.global.error.exception.bookset.book;
 
 import com.nhnacademy.bookstore.common.error.enums.RedirectType;
 import com.nhnacademy.bookstore.common.error.exception.base.BadRequestException;

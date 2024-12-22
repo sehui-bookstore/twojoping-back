@@ -1,8 +1,8 @@
-package com.nhnacademy.twojopingback.common.error.handler;
+package com.nhnacademy.twojopingback.global.error.handler;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.nhnacademy.bookstore.common.error.dto.ErrorResponseDto;
-import com.nhnacademy.bookstore.common.error.exception.base.*;
+import com.nhnacademy.twojopingback.global.error.dto.ErrorResponseDto;
+import com.nhnacademy.twojopingback.global.error.exception.base.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import java.util.Map;
 import java.util.stream.Collectors;
-
 
 /**
  * GlobalExceptionHandler
@@ -46,7 +45,6 @@ public class GlobalExceptionHandler implements BaseExceptionHandler{
         );
 
         return new ResponseEntity<>(errorResponse, HttpStatus.BAD_REQUEST);
-
     }
 
     // 400 - Validation Error 예외 처리
@@ -78,7 +76,6 @@ public class GlobalExceptionHandler implements BaseExceptionHandler{
                 null,
                 null
         );
-
         return new ResponseEntity<>(errorResponse, HttpStatus.BAD_REQUEST);
     }
 
@@ -97,7 +94,6 @@ public class GlobalExceptionHandler implements BaseExceptionHandler{
         );
 
         return new ResponseEntity<>(errorResponse, HttpStatus.UNAUTHORIZED);
-
     }
 
     // 403 - Forbidden 예외 처리
@@ -115,7 +111,6 @@ public class GlobalExceptionHandler implements BaseExceptionHandler{
         );
 
         return new ResponseEntity<>(errorResponse, HttpStatus.FORBIDDEN);
-
     }
 
     // 404 - Not Found 예외 처리
@@ -133,7 +128,6 @@ public class GlobalExceptionHandler implements BaseExceptionHandler{
         );
 
         return new ResponseEntity<>(errorResponse, HttpStatus.NOT_FOUND);
-
     }
 
     // 409 - Conflict 예외 처리
@@ -151,7 +145,6 @@ public class GlobalExceptionHandler implements BaseExceptionHandler{
         );
 
         return new ResponseEntity<>(errorResponse, HttpStatus.CONFLICT);
-
     }
 
     // 500 - Internal Server Error 예외 처리
@@ -169,6 +162,5 @@ public class GlobalExceptionHandler implements BaseExceptionHandler{
         );
 
         return new ResponseEntity<>(errorResponse, HttpStatus.INTERNAL_SERVER_ERROR);
-
     }
 }

@@ -1,4 +1,4 @@
-package com.nhnacademy.twojopingback.common.error.exception.bookset.publisher;
+package com.nhnacademy.twojopingback.global.error.exception.bookset.publisher;
 
 import com.nhnacademy.bookstore.common.error.exception.base.NotFoundException;
 

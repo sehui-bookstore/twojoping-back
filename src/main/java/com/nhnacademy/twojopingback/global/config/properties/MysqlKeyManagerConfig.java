@@ -1,4 +1,4 @@
-package com.nhnacademy.twojopingback.common.config.properties;
+package com.nhnacademy.twojopingback.global.config.properties;
 
 import lombok.Getter;
 import lombok.Setter;

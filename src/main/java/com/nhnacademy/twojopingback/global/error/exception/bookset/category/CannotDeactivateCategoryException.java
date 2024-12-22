@@ -1,4 +1,4 @@
-package com.nhnacademy.twojopingback.common.error.exception.bookset.category;
+package com.nhnacademy.twojopingback.global.error.exception.bookset.category;
 
 import com.nhnacademy.bookstore.common.error.exception.base.BadRequestException;
 

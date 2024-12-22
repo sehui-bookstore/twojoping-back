@@ -1,6 +1,6 @@
-package com.nhnacademy.twojopingback.common.error.dto;
+package com.nhnacademy.twojopingback.global.error.dto;
 
-import com.nhnacademy.bookstore.common.error.enums.RedirectType;
+import com.nhnacademy.twojopingback.global.error.enums.RedirectType;
 
 /**
  * ErrorResponseDto
@@ -26,5 +26,4 @@ public record ErrorResponseDto<T>(
         String url,
         T data
 ) {
-
 }

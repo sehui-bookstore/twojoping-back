@@ -1,6 +1,6 @@
-package com.nhnacademy.twojopingback.common.error.common;
+package com.nhnacademy.twojopingback.global.error.common;
 
-import com.nhnacademy.bookstore.common.error.exception.base.BadRequestException;
+import com.nhnacademy.twojopingback.global.error.exception.base.BadRequestException;
 
 /**
  * InvalidPathVariableException은 유효하지 않은 경로 변수 값이 입력되었을 때 발생하는 예외입니다.

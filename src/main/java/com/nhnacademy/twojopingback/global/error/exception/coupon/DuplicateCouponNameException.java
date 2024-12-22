@@ -1,4 +1,4 @@
-package com.nhnacademy.twojopingback.common.error.exception.coupon;
+package com.nhnacademy.twojopingback.global.error.exception.coupon;
 
 
 import com.nhnacademy.bookstore.common.error.enums.RedirectType;
