@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.like.repository;
 
-import com.nhnacademy.bookstore.like.dto.response.MemberLikeResponseDto;
+import com.nhnacademy.twojopingback.like.dto.response.MemberLikeResponseDto;
 
 import java.util.List;
 

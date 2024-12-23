@@ -1,14 +1,14 @@
 package com.nhnacademy.twojopingback.point.service.impl;
 
-import com.nhnacademy.bookstore.common.error.exception.point.PointTypeNotFoundException;
-import com.nhnacademy.bookstore.point.dto.request.CreatePointTypeRequestDto;
-import com.nhnacademy.bookstore.point.dto.request.UpdatePointTypeRequestDto;
-import com.nhnacademy.bookstore.point.dto.response.GetPointTypeResponse;
-import com.nhnacademy.bookstore.point.dto.response.ReadPointTypeResponseDto;
-import com.nhnacademy.bookstore.point.dto.response.UpdatePointTypeResponseDto;
-import com.nhnacademy.bookstore.point.entity.PointType;
-import com.nhnacademy.bookstore.point.repository.PointTypeRepository;
-import com.nhnacademy.bookstore.point.service.PointTypeService;
+import com.nhnacademy.twojopingback.global.error.exception.point.PointTypeNotFoundException;
+import com.nhnacademy.twojopingback.point.dto.request.CreatePointTypeRequestDto;
+import com.nhnacademy.twojopingback.point.dto.request.UpdatePointTypeRequestDto;
+import com.nhnacademy.twojopingback.point.dto.response.GetPointTypeResponse;
+import com.nhnacademy.twojopingback.point.dto.response.ReadPointTypeResponseDto;
+import com.nhnacademy.twojopingback.point.dto.response.UpdatePointTypeResponseDto;
+import com.nhnacademy.twojopingback.point.entity.PointType;
+import com.nhnacademy.twojopingback.point.repository.PointTypeRepository;
+import com.nhnacademy.twojopingback.point.service.PointTypeService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

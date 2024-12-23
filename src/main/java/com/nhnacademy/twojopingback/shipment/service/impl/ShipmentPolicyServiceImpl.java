@@ -1,13 +1,13 @@
 package com.nhnacademy.twojopingback.shipment.service.impl;
 
-import com.nhnacademy.bookstore.common.error.exception.shipment.ShipmentPolicyNotFoundException;
-import com.nhnacademy.bookstore.shipment.dto.request.ShipmentPolicyRequestDto;
-import com.nhnacademy.bookstore.shipment.dto.response.ShipmentPolicyResponseDto;
-import com.nhnacademy.bookstore.shipment.dto.response.ShippingFeeResponseDto;
-import com.nhnacademy.bookstore.shipment.entity.ShipmentPolicy;
-import com.nhnacademy.bookstore.shipment.mapper.ShipmentPolicyMapper;
-import com.nhnacademy.bookstore.shipment.repository.ShipmentPolicyRepository;
-import com.nhnacademy.bookstore.shipment.service.ShipmentPolicyService;
+import com.nhnacademy.twojopingback.global.error.exception.shipment.ShipmentPolicyNotFoundException;
+import com.nhnacademy.twojopingback.shipment.dto.request.ShipmentPolicyRequestDto;
+import com.nhnacademy.twojopingback.shipment.dto.response.ShipmentPolicyResponseDto;
+import com.nhnacademy.twojopingback.shipment.dto.response.ShippingFeeResponseDto;
+import com.nhnacademy.twojopingback.shipment.entity.ShipmentPolicy;
+import com.nhnacademy.twojopingback.shipment.mapper.ShipmentPolicyMapper;
+import com.nhnacademy.twojopingback.shipment.repository.ShipmentPolicyRepository;
+import com.nhnacademy.twojopingback.shipment.service.ShipmentPolicyService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

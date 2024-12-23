@@ -1,7 +1,7 @@
 package com.nhnacademy.twojopingback.user.tier.controller;
 
-import com.nhnacademy.bookstore.user.tier.dto.response.MemberTierResponse;
-import com.nhnacademy.bookstore.user.tier.service.TierService;
+import com.nhnacademy.twojopingback.user.tier.dto.response.MemberTierResponse;
+import com.nhnacademy.twojopingback.user.tier.service.TierService;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

@@ -1,9 +1,9 @@
 package com.nhnacademy.twojopingback.bookset.publisher.controller;
 
-import com.nhnacademy.bookstore.bookset.publisher.dto.request.PublisherRequestDto;
-import com.nhnacademy.bookstore.bookset.publisher.dto.response.PublisherCreateResponseDto;
-import com.nhnacademy.bookstore.bookset.publisher.dto.response.PublisherResponseDto;
-import com.nhnacademy.bookstore.bookset.publisher.service.PublisherService;
+import com.nhnacademy.twojopingback.bookset.publisher.dto.request.PublisherRequestDto;
+import com.nhnacademy.twojopingback.bookset.publisher.dto.response.PublisherCreateResponseDto;
+import com.nhnacademy.twojopingback.bookset.publisher.dto.response.PublisherResponseDto;
+import com.nhnacademy.twojopingback.bookset.publisher.service.PublisherService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;

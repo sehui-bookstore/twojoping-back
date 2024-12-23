@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.like.repository;
 
-import com.nhnacademy.bookstore.like.entity.Like;
+import com.nhnacademy.twojopingback.like.entity.Like;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

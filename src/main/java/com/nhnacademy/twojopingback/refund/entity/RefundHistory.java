@@ -5,7 +5,7 @@ package com.nhnacademy.twojopingback.refund.entity;
  * @author : 이유현
  * @date : 2024-10-22
  */
-import com.nhnacademy.bookstore.orderset.order.entity.Order;
+import com.nhnacademy.twojopingback.orderset.order.entity.Order;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

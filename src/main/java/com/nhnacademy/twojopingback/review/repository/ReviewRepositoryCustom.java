@@ -1,7 +1,7 @@
 package com.nhnacademy.twojopingback.review.repository;
 
-import com.nhnacademy.bookstore.review.dto.response.ReviewResponseDto;
-import com.nhnacademy.bookstore.review.dto.response.ReviewTotalResponseDto;
+import com.nhnacademy.twojopingback.review.dto.response.ReviewResponseDto;
+import com.nhnacademy.twojopingback.review.dto.response.ReviewTotalResponseDto;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.NoRepositoryBean;

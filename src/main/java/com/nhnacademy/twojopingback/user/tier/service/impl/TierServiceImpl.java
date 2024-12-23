@@ -1,12 +1,12 @@
 package com.nhnacademy.twojopingback.user.tier.service.impl;
 
-import com.nhnacademy.bookstore.common.error.enums.RedirectType;
-import com.nhnacademy.bookstore.common.error.exception.user.member.MemberNotFoundException;
-import com.nhnacademy.bookstore.user.member.entity.Member;
-import com.nhnacademy.bookstore.user.member.repository.MemberRepository;
-import com.nhnacademy.bookstore.user.tier.dto.response.MemberTierResponse;
-import com.nhnacademy.bookstore.user.tier.entity.MemberTier;
-import com.nhnacademy.bookstore.user.tier.service.TierService;
+import com.nhnacademy.twojopingback.global.error.enums.RedirectType;
+import com.nhnacademy.twojopingback.global.error.exception.user.member.MemberNotFoundException;
+import com.nhnacademy.twojopingback.user.member.entity.Member;
+import com.nhnacademy.twojopingback.user.member.repository.MemberRepository;
+import com.nhnacademy.twojopingback.user.tier.dto.response.MemberTierResponse;
+import com.nhnacademy.twojopingback.user.tier.entity.MemberTier;
+import com.nhnacademy.twojopingback.user.tier.service.TierService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

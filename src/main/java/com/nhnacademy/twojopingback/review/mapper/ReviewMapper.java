@@ -1,10 +1,10 @@
 package com.nhnacademy.twojopingback.review.mapper;
 
 
-import com.nhnacademy.bookstore.review.dto.response.ReviewCreateResponseDto;
-import com.nhnacademy.bookstore.review.dto.response.ReviewModifyResponseDto;
-import com.nhnacademy.bookstore.review.dto.response.ReviewResponseDto;
-import com.nhnacademy.bookstore.review.entity.Review;
+import com.nhnacademy.twojopingback.review.dto.response.ReviewCreateResponseDto;
+import com.nhnacademy.twojopingback.review.dto.response.ReviewModifyResponseDto;
+import com.nhnacademy.twojopingback.review.dto.response.ReviewResponseDto;
+import com.nhnacademy.twojopingback.review.entity.Review;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;

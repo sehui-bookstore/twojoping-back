@@ -1,8 +1,7 @@
 package com.nhnacademy.twojopingback.coupon.repository.policy.impl;
 
-
-import com.nhnacademy.bookstore.coupon.dto.response.CouponPolicyResponseDto;
-import com.nhnacademy.bookstore.coupon.repository.policy.CouponPolicyQuerydslRepository;
+import com.nhnacademy.twojopingback.coupon.dto.response.CouponPolicyResponseDto;
+import com.nhnacademy.twojopingback.coupon.repository.policy.CouponPolicyQuerydslRepository;
 import com.querydsl.core.types.Projections;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import lombok.RequiredArgsConstructor;
@@ -10,9 +9,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-import static com.nhnacademy.bookstore.coupon.entity.QCouponPolicy.couponPolicy;
-
-
+import static com.nhnacademy.twojopingback.coupon.entity.QCouponPolicy.couponPolicy;
 
 /**
  * CouponPolicyRepositoryImpl

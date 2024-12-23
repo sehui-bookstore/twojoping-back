@@ -1,7 +1,7 @@
 package com.nhnacademy.twojopingback.user.member.repository;
 
-import com.nhnacademy.bookstore.user.member.dto.response.MemberPointResponse;
-import com.nhnacademy.bookstore.user.member.entity.Member;
+import com.nhnacademy.twojopingback.user.member.dto.response.MemberPointResponse;
+import com.nhnacademy.twojopingback.user.member.entity.Member;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

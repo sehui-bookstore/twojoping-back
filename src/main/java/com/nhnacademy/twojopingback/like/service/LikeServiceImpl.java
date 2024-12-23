@@ -1,15 +1,15 @@
 package com.nhnacademy.twojopingback.like.service;
 
-import com.nhnacademy.bookstore.bookset.book.entity.Book;
-import com.nhnacademy.bookstore.bookset.book.repository.BookRepository;
-import com.nhnacademy.bookstore.common.error.exception.base.NotFoundException;
-import com.nhnacademy.bookstore.like.dto.LikeRequestDto;
-import com.nhnacademy.bookstore.like.dto.LikeResponseDto;
-import com.nhnacademy.bookstore.like.dto.response.MemberLikeResponseDto;
-import com.nhnacademy.bookstore.like.entity.Like;
-import com.nhnacademy.bookstore.like.repository.LikeRepository;
-import com.nhnacademy.bookstore.user.member.entity.Member;
-import com.nhnacademy.bookstore.user.member.repository.MemberRepository;
+import com.nhnacademy.twojopingback.bookset.book.entity.Book;
+import com.nhnacademy.twojopingback.bookset.book.repository.BookRepository;
+import com.nhnacademy.twojopingback.common.error.exception.base.NotFoundException;
+import com.nhnacademy.twojopingback.like.dto.LikeRequestDto;
+import com.nhnacademy.twojopingback.like.dto.LikeResponseDto;
+import com.nhnacademy.twojopingback.like.dto.response.MemberLikeResponseDto;
+import com.nhnacademy.twojopingback.like.entity.Like;
+import com.nhnacademy.twojopingback.like.repository.LikeRepository;
+import com.nhnacademy.twojopingback.user.member.entity.Member;
+import com.nhnacademy.twojopingback.user.member.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

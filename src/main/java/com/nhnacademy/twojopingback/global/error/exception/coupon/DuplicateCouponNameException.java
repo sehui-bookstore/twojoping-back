@@ -1,8 +1,8 @@
 package com.nhnacademy.twojopingback.global.error.exception.coupon;
 
 
-import com.nhnacademy.bookstore.common.error.enums.RedirectType;
-import com.nhnacademy.bookstore.common.error.exception.base.BadRequestException;
+import com.nhnacademy.twojopingback.global.error.enums.RedirectType;
+import com.nhnacademy.twojopingback.global.error.exception.base.BadRequestException;
 
 /**
  * DuplicateCouponNameException

@@ -1,10 +1,10 @@
 package com.nhnacademy.twojopingback.point.service;
 
-import com.nhnacademy.bookstore.point.dto.request.OrderPointAwardRequest;
-import com.nhnacademy.bookstore.point.dto.request.PointUseRequest;
-import com.nhnacademy.bookstore.point.dto.request.ReviewPointAwardRequest;
-import com.nhnacademy.bookstore.point.dto.response.GetMyPageDetailPointHistoriesResponse;
-import com.nhnacademy.bookstore.point.dto.response.GetMyPageSimplePointHistoriesResponse;
+import com.nhnacademy.twojopingback.point.dto.request.OrderPointAwardRequest;
+import com.nhnacademy.twojopingback.point.dto.request.PointUseRequest;
+import com.nhnacademy.twojopingback.point.dto.request.ReviewPointAwardRequest;
+import com.nhnacademy.twojopingback.point.dto.response.GetMyPageDetailPointHistoriesResponse;
+import com.nhnacademy.twojopingback.point.dto.response.GetMyPageSimplePointHistoriesResponse;
 
 public interface PointService {
 

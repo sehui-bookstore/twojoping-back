@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.coupon.dto.response;
 
-import com.nhnacademy.bookstore.coupon.enums.DiscountType;
+import com.nhnacademy.twojopingback.coupon.enums.DiscountType;
 
 import java.time.LocalDateTime;
 

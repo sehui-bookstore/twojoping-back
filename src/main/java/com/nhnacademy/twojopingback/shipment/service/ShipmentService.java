@@ -1,7 +1,7 @@
 package com.nhnacademy.twojopingback.shipment.service;
 
-import com.nhnacademy.bookstore.shipment.dto.request.ShipmentRequestDto;
-import com.nhnacademy.bookstore.shipment.dto.response.ShipmentResponseDto;
+import com.nhnacademy.twojopingback.shipment.dto.request.ShipmentRequestDto;
+import com.nhnacademy.twojopingback.shipment.dto.response.ShipmentResponseDto;
 
 import java.util.List;
 

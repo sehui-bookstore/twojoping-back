@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.coupon.dto.response;
 
-import com.nhnacademy.bookstore.coupon.entity.CouponPolicy;
+import com.nhnacademy.twojopingback.coupon.entity.CouponPolicy;
 
 /**
  * CouponPolicyResponseDto

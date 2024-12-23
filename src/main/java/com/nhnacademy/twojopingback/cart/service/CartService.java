@@ -1,15 +1,15 @@
 package com.nhnacademy.twojopingback.cart.service;
 
-import com.nhnacademy.bookstore.bookset.book.entity.Book;
-import com.nhnacademy.bookstore.bookset.book.repository.BookRepository;
-import com.nhnacademy.bookstore.cart.dto.CartRequestDto;
-import com.nhnacademy.bookstore.cart.dto.CartResponseDto;
-import com.nhnacademy.bookstore.cart.entity.Cart;
-import com.nhnacademy.bookstore.cart.entity.CartId;
-import com.nhnacademy.bookstore.cart.mapper.CartMapper;
-import com.nhnacademy.bookstore.cart.repository.CartRepository;
-import com.nhnacademy.bookstore.user.member.entity.Member;
-import com.nhnacademy.bookstore.user.member.repository.MemberRepository;
+import com.nhnacademy.twojopingback.bookset.book.entity.Book;
+import com.nhnacademy.twojopingback.bookset.book.repository.BookRepository;
+import com.nhnacademy.twojopingback.cart.dto.CartRequestDto;
+import com.nhnacademy.twojopingback.cart.dto.CartResponseDto;
+import com.nhnacademy.twojopingback.cart.entity.Cart;
+import com.nhnacademy.twojopingback.cart.entity.CartId;
+import com.nhnacademy.twojopingback.cart.mapper.CartMapper;
+import com.nhnacademy.twojopingback.cart.repository.CartRepository;
+import com.nhnacademy.twojopingback.user.member.entity.Member;
+import com.nhnacademy.twojopingback.user.member.repository.MemberRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

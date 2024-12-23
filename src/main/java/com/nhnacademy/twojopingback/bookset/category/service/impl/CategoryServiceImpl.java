@@ -1,15 +1,15 @@
 package com.nhnacademy.twojopingback.bookset.category.service.impl;
 
-import com.nhnacademy.bookstore.bookset.category.dto.request.CategoryRequestDto;
-import com.nhnacademy.bookstore.bookset.category.dto.response.CategoryIsActiveResponseDto;
-import com.nhnacademy.bookstore.bookset.category.dto.response.CategoryResponseDto;
-import com.nhnacademy.bookstore.bookset.category.entity.Category;
-import com.nhnacademy.bookstore.bookset.category.mapper.CategoryMapper;
-import com.nhnacademy.bookstore.bookset.category.repository.CategoryRepository;
-import com.nhnacademy.bookstore.bookset.category.service.CategoryService;
-import com.nhnacademy.bookstore.common.error.exception.bookset.category.CannotDeactivateCategoryException;
-import com.nhnacademy.bookstore.common.error.exception.bookset.category.CategoryNotFoundException;
-import com.nhnacademy.bookstore.common.error.exception.bookset.category.DuplicateCategoryNameException;
+import com.nhnacademy.twojopingback.bookset.category.dto.request.CategoryRequestDto;
+import com.nhnacademy.twojopingback.bookset.category.dto.response.CategoryIsActiveResponseDto;
+import com.nhnacademy.twojopingback.bookset.category.dto.response.CategoryResponseDto;
+import com.nhnacademy.twojopingback.bookset.category.entity.Category;
+import com.nhnacademy.twojopingback.bookset.category.mapper.CategoryMapper;
+import com.nhnacademy.twojopingback.bookset.category.repository.CategoryRepository;
+import com.nhnacademy.twojopingback.bookset.category.service.CategoryService;
+import com.nhnacademy.twojopingback.global.error.exception.bookset.category.CannotDeactivateCategoryException;
+import com.nhnacademy.twojopingback.global.error.exception.bookset.category.CategoryNotFoundException;
+import com.nhnacademy.twojopingback.global.error.exception.bookset.category.DuplicateCategoryNameException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

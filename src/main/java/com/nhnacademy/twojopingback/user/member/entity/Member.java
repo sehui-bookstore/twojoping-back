@@ -1,12 +1,12 @@
 package com.nhnacademy.twojopingback.user.member.entity;
 
-import com.nhnacademy.bookstore.coupon.entity.member.MemberCoupon;
-import com.nhnacademy.bookstore.like.entity.Like;
-import com.nhnacademy.bookstore.user.customer.entity.Customer;
-import com.nhnacademy.bookstore.user.enums.Gender;
-import com.nhnacademy.bookstore.user.member.dto.request.MemberCreateRequestDto;
-import com.nhnacademy.bookstore.user.memberstatus.entity.MemberStatus;
-import com.nhnacademy.bookstore.user.tier.entity.MemberTier;
+import com.nhnacademy.twojopingback.coupon.entity.member.MemberCoupon;
+import com.nhnacademy.twojopingback.like.entity.Like;
+import com.nhnacademy.twojopingback.user.customer.entity.Customer;
+import com.nhnacademy.twojopingback.user.enums.Gender;
+import com.nhnacademy.twojopingback.user.member.dto.request.MemberCreateRequestDto;
+import com.nhnacademy.twojopingback.user.memberstatus.entity.MemberStatus;
+import com.nhnacademy.twojopingback.user.tier.entity.MemberTier;
 import jakarta.persistence.*;
 import lombok.*;
 

@@ -1,7 +1,7 @@
 package com.nhnacademy.twojopingback.bookset.book.dto.response;
 
-import com.nhnacademy.bookstore.bookset.category.dto.response.CategoryResponseDto;
-import com.nhnacademy.bookstore.bookset.contributor.dto.response.ContributorResponseDto;
+import com.nhnacademy.twojopingback.bookset.category.dto.response.CategoryResponseDto;
+import com.nhnacademy.twojopingback.bookset.contributor.dto.response.ContributorResponseDto;
 
 import java.time.LocalDate;
 import java.util.List;

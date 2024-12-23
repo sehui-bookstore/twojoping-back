@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.orderset.orderstate.converter;
 
-import com.nhnacademy.bookstore.orderset.orderstate.entity.vo.OrderStateType;
+import com.nhnacademy.twojopingback.orderset.orderstate.entity.vo.OrderStateType;
 import jakarta.persistence.AttributeConverter;
 import jakarta.persistence.Converter;
 

@@ -1,7 +1,7 @@
 package com.nhnacademy.twojopingback.point.dto.response;
 
-import com.nhnacademy.bookstore.point.entity.PointType;
-import com.nhnacademy.bookstore.point.enums.PointTypeEnum;
+import com.nhnacademy.twojopingback.point.entity.PointType;
+import com.nhnacademy.twojopingback.point.enums.PointTypeEnum;
 
 public record GetPointTypeResponse(
 

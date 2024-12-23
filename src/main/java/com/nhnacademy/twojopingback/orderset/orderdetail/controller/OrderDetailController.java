@@ -1,7 +1,7 @@
 package com.nhnacademy.twojopingback.orderset.orderdetail.controller;
 
-import com.nhnacademy.bookstore.orderset.orderdetail.dto.response.OrderDetailResponseDto;
-import com.nhnacademy.bookstore.orderset.orderdetail.service.OrderDetailService;
+import com.nhnacademy.twojopingback.orderset.orderdetail.dto.response.OrderDetailResponseDto;
+import com.nhnacademy.twojopingback.orderset.orderdetail.service.OrderDetailService;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

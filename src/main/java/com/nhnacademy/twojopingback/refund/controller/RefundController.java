@@ -1,7 +1,7 @@
 package com.nhnacademy.twojopingback.refund.controller;
 
-import com.nhnacademy.bookstore.refund.dto.response.RefundResponseDto;
-import com.nhnacademy.bookstore.refund.service.RefundService;
+import com.nhnacademy.twojopingback.refund.dto.response.RefundResponseDto;
+import com.nhnacademy.twojopingback.refund.service.RefundService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;

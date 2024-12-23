@@ -1,8 +1,8 @@
 package com.nhnacademy.twojopingback.bookset.tag.controller;
 
-import com.nhnacademy.bookstore.bookset.tag.dto.TagRequestDto;
-import com.nhnacademy.bookstore.bookset.tag.dto.TagResponseDto;
-import com.nhnacademy.bookstore.bookset.tag.service.TagService;
+import com.nhnacademy.twojopingback.bookset.tag.dto.TagRequestDto;
+import com.nhnacademy.twojopingback.bookset.tag.dto.TagResponseDto;
+import com.nhnacademy.twojopingback.bookset.tag.service.TagService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;

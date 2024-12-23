@@ -1,7 +1,7 @@
 package com.nhnacademy.twojopingback.cart.mapper;
 
-import com.nhnacademy.bookstore.cart.dto.CartResponseDto;
-import com.nhnacademy.bookstore.cart.entity.Cart;
+import com.nhnacademy.twojopingback.cart.dto.CartResponseDto;
+import com.nhnacademy.twojopingback.cart.entity.Cart;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

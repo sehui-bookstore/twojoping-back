@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.coupon.dto.request;
 
-import com.nhnacademy.bookstore.coupon.enums.DiscountType;
+import com.nhnacademy.twojopingback.coupon.enums.DiscountType;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import jakarta.validation.constraints.NotBlank;

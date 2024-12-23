@@ -1,7 +1,7 @@
 package com.nhnacademy.twojopingback.orderset.orderdetail.service;
 
-import com.nhnacademy.bookstore.orderset.orderdetail.dto.response.OrderDetailResponseDto;
-import com.nhnacademy.bookstore.orderset.orderdetail.repository.OrderDetailRepository;
+import com.nhnacademy.twojopingback.orderset.orderdetail.dto.response.OrderDetailResponseDto;
+import com.nhnacademy.twojopingback.orderset.orderdetail.repository.OrderDetailRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

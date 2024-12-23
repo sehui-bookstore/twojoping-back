@@ -1,10 +1,10 @@
 package com.nhnacademy.twojopingback.point.controller;
 
-import com.nhnacademy.bookstore.point.dto.response.GetMyPageDetailPointHistoriesResponse;
-import com.nhnacademy.bookstore.point.dto.response.GetMyPageSimplePointHistoriesResponse;
-import com.nhnacademy.bookstore.point.dto.response.GetPointTypeResponse;
-import com.nhnacademy.bookstore.point.service.impl.PointServiceImpl;
-import com.nhnacademy.bookstore.point.service.impl.PointTypeServiceImpl;
+import com.nhnacademy.twojopingback.point.dto.response.GetMyPageDetailPointHistoriesResponse;
+import com.nhnacademy.twojopingback.point.dto.response.GetMyPageSimplePointHistoriesResponse;
+import com.nhnacademy.twojopingback.point.dto.response.GetPointTypeResponse;
+import com.nhnacademy.twojopingback.point.service.impl.PointServiceImpl;
+import com.nhnacademy.twojopingback.point.service.impl.PointTypeServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

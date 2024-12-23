@@ -1,7 +1,7 @@
 package com.nhnacademy.twojopingback.user.tier.entity;
 
 
-import com.nhnacademy.bookstore.user.tier.enums.Tier;
+import com.nhnacademy.twojopingback.user.tier.enums.Tier;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

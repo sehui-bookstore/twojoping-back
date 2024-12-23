@@ -6,8 +6,8 @@ package com.nhnacademy.twojopingback.shipment.entity;
  * @date : 2024-10-22
  */
 
-import com.nhnacademy.bookstore.orderset.order.entity.Order;
-import com.nhnacademy.bookstore.shipment.dto.request.ShipmentRequestDto;
+import com.nhnacademy.twojopingback.orderset.order.entity.Order;
+import com.nhnacademy.twojopingback.shipment.dto.request.ShipmentRequestDto;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

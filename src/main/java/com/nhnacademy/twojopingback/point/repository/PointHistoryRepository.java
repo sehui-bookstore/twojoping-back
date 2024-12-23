@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.point.repository;
 
-import com.nhnacademy.bookstore.point.entity.PointHistory;
+import com.nhnacademy.twojopingback.point.entity.PointHistory;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

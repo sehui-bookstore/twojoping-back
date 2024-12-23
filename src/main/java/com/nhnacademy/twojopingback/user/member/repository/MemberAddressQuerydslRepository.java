@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.user.member.repository;
 
-import com.nhnacademy.bookstore.user.member.dto.response.address.MemberAddressResponseDto;
+import com.nhnacademy.twojopingback.user.member.dto.response.address.MemberAddressResponseDto;
 
 import java.util.List;
 

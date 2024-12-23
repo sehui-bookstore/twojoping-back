@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.admin.wrap.repository;
 
-import com.nhnacademy.bookstore.admin.wrap.dto.response.WrapResponseDto;
+import com.nhnacademy.twojopingback.admin.wrap.dto.response.WrapResponseDto;
 
 import java.util.List;
 

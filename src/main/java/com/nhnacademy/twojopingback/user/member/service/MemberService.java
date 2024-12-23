@@ -1,9 +1,9 @@
 package com.nhnacademy.twojopingback.user.member.service;
 
-import com.nhnacademy.bookstore.user.member.dto.request.MemberCreateRequestDto;
-import com.nhnacademy.bookstore.user.member.dto.request.MemberUpdateRequesteDto;
-import com.nhnacademy.bookstore.user.member.dto.request.MemberWithdrawRequesteDto;
-import com.nhnacademy.bookstore.user.member.dto.response.*;
+import com.nhnacademy.twojopingback.user.member.dto.request.MemberCreateRequestDto;
+import com.nhnacademy.twojopingback.user.member.dto.request.MemberUpdateRequesteDto;
+import com.nhnacademy.twojopingback.user.member.dto.request.MemberWithdrawRequesteDto;
+import com.nhnacademy.twojopingback.user.member.dto.response.*;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,10 +1,10 @@
 package com.nhnacademy.twojopingback.orderset.order.controller;
 
-import com.nhnacademy.bookstore.orderset.order.dto.request.OrderPostRequest;
-import com.nhnacademy.bookstore.orderset.order.dto.request.OrderRequest;
-import com.nhnacademy.bookstore.orderset.order.dto.response.OrderTempResponse;
-import com.nhnacademy.bookstore.orderset.order.service.OrderService;
-import com.nhnacademy.bookstore.user.customer.service.CustomerService;
+import com.nhnacademy.twojopingback.orderset.order.dto.request.OrderPostRequest;
+import com.nhnacademy.twojopingback.orderset.order.dto.request.OrderRequest;
+import com.nhnacademy.twojopingback.orderset.order.dto.response.OrderTempResponse;
+import com.nhnacademy.twojopingback.orderset.order.service.OrderService;
+import com.nhnacademy.twojopingback.user.customer.service.CustomerService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

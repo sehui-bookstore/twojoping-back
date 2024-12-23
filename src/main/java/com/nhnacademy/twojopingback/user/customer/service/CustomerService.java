@@ -1,11 +1,11 @@
 package com.nhnacademy.twojopingback.user.customer.service;
 
-import com.nhnacademy.bookstore.orderset.order.dto.request.OrderRequest;
-import com.nhnacademy.bookstore.user.customer.dto.request.CustomerRegisterRequest;
-import com.nhnacademy.bookstore.user.customer.dto.response.CustomerWithMemberStatusResponse;
-import com.nhnacademy.bookstore.user.customer.entity.Customer;
-import com.nhnacademy.bookstore.user.customer.repository.CustomerRepository;
-import com.nhnacademy.bookstore.user.nonmember.service.NonMemberService;
+import com.nhnacademy.twojopingback.orderset.order.dto.request.OrderRequest;
+import com.nhnacademy.twojopingback.user.customer.dto.request.CustomerRegisterRequest;
+import com.nhnacademy.twojopingback.user.customer.dto.response.CustomerWithMemberStatusResponse;
+import com.nhnacademy.twojopingback.user.customer.entity.Customer;
+import com.nhnacademy.twojopingback.user.customer.repository.CustomerRepository;
+import com.nhnacademy.twojopingback.user.nonmember.service.NonMemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
