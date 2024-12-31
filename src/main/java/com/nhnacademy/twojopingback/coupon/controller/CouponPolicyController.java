@@ -1,7 +1,7 @@
 package com.nhnacademy.twojopingback.coupon.controller;
 
 
-import com.nhnacademy.twojopingback.common.annotation.ValidPathVariable;
+import com.nhnacademy.twojopingback.global.annotation.ValidPathVariable;
 import com.nhnacademy.twojopingback.coupon.dto.request.CreateCouponPolicyRequest;
 import com.nhnacademy.twojopingback.coupon.dto.request.UpdateCouponPolicyRequest;
 import com.nhnacademy.twojopingback.coupon.dto.response.CouponPolicyResponseDto;

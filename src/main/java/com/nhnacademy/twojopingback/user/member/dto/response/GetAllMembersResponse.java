@@ -1,8 +1,8 @@
 package com.nhnacademy.twojopingback.user.member.dto.response;
 
-import com.nhnacademy.bookstore.user.member.entity.Member;
-import com.nhnacademy.bookstore.user.memberstatus.entity.MemberStatus;
-import com.nhnacademy.bookstore.user.tier.enums.Tier;
+import com.nhnacademy.twojopingback.user.member.entity.Member;
+import com.nhnacademy.twojopingback.user.memberstatus.entity.MemberStatus;
+import com.nhnacademy.twojopingback.user.tier.enums.Tier;
 
 import java.time.LocalDate;
 

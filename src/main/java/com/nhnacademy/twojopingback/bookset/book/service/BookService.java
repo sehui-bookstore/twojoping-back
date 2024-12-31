@@ -1,9 +1,9 @@
 package com.nhnacademy.twojopingback.bookset.book.service;
 
-import com.nhnacademy.bookstore.bookset.book.dto.request.BookCreateRequestDto;
-import com.nhnacademy.bookstore.bookset.book.dto.request.BookUpdateRequestDto;
-import com.nhnacademy.bookstore.bookset.book.dto.response.*;
-import com.nhnacademy.bookstore.bookset.contributor.dto.response.ContributorResponseDto;
+import com.nhnacademy.twojopingback.bookset.book.dto.request.BookCreateRequestDto;
+import com.nhnacademy.twojopingback.bookset.book.dto.request.BookUpdateRequestDto;
+import com.nhnacademy.twojopingback.bookset.book.dto.response.*;
+import com.nhnacademy.twojopingback.bookset.contributor.dto.response.ContributorResponseDto;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

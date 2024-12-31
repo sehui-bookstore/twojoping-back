@@ -1,18 +1,11 @@
 package com.nhnacademy.twojopingback.imageset.entity;
 
-import com.nhnacademy.bookstore.bookset.book.entity.Book;
+import com.nhnacademy.twojopingback.bookset.book.entity.Book;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
-
-/**
- * 도서 이미지 Entity
- *
- * @author : 이초은
- * @date : 2024-11-12
- */
 
 @Entity
 @Getter

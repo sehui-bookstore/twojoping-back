@@ -10,7 +10,7 @@ import com.nhnacademy.twojopingback.bookset.contributor.entity.QContributor;
 import com.nhnacademy.twojopingback.bookset.contributor.entity.QContributorRole;
 import com.nhnacademy.twojopingback.bookset.tag.entity.QBookTag;
 import com.nhnacademy.twojopingback.bookset.tag.entity.QTag;
-import com.nhnacademy.twojopingback.common.error.exception.bookset.category.CategoryIdNullException;
+import com.nhnacademy.twojopingback.global.error.exception.bookset.category.CategoryIdNullException;
 import com.nhnacademy.twojopingback.imageset.entity.QBookImage;
 import com.nhnacademy.twojopingback.imageset.entity.QImage;
 import com.nhnacademy.twojopingback.review.dto.response.ReviewResponseDto;

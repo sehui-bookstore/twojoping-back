@@ -1,13 +1,13 @@
 package com.nhnacademy.twojopingback.coupon.service.impl;
 
-import com.nhnacademy.bookstore.coupon.dto.response.MemberCouponResponseDto;
-import com.nhnacademy.bookstore.coupon.dto.response.OrderCouponResponse;
-import com.nhnacademy.bookstore.coupon.entity.Coupon;
-import com.nhnacademy.bookstore.coupon.entity.member.MemberCoupon;
-import com.nhnacademy.bookstore.coupon.repository.coupon.CouponRepository;
-import com.nhnacademy.bookstore.coupon.repository.member.MemberCouponRepository;
-import com.nhnacademy.bookstore.coupon.service.MemberCouponService;
-import com.nhnacademy.bookstore.user.member.entity.Member;
+import com.nhnacademy.twojopingback.coupon.dto.response.MemberCouponResponseDto;
+import com.nhnacademy.twojopingback.coupon.dto.response.OrderCouponResponse;
+import com.nhnacademy.twojopingback.coupon.entity.Coupon;
+import com.nhnacademy.twojopingback.coupon.entity.member.MemberCoupon;
+import com.nhnacademy.twojopingback.coupon.repository.coupon.CouponRepository;
+import com.nhnacademy.twojopingback.coupon.repository.member.MemberCouponRepository;
+import com.nhnacademy.twojopingback.coupon.service.MemberCouponService;
+import com.nhnacademy.twojopingback.user.member.entity.Member;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

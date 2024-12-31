@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.imageset.repository;
 
-import com.nhnacademy.bookstore.imageset.entity.ReviewImage;
+import com.nhnacademy.twojopingback.imageset.entity.ReviewImage;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 

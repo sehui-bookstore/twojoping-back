@@ -2,11 +2,11 @@ package com.nhnacademy.twojopingback.user.member.controller;
 
 
 
-import com.nhnacademy.bookstore.user.member.dto.request.MemberCreateRequestDto;
-import com.nhnacademy.bookstore.user.member.dto.request.MemberUpdateRequesteDto;
-import com.nhnacademy.bookstore.user.member.dto.request.MemberWithdrawRequesteDto;
-import com.nhnacademy.bookstore.user.member.dto.response.*;
-import com.nhnacademy.bookstore.user.member.service.MemberService;
+import com.nhnacademy.twojopingback.user.member.dto.request.MemberCreateRequestDto;
+import com.nhnacademy.twojopingback.user.member.dto.request.MemberUpdateRequesteDto;
+import com.nhnacademy.twojopingback.user.member.dto.request.MemberWithdrawRequesteDto;
+import com.nhnacademy.twojopingback.user.member.dto.response.*;
+import com.nhnacademy.twojopingback.user.member.service.MemberService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;

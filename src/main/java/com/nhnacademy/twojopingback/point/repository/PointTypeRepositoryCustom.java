@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.point.repository;
 
-import com.nhnacademy.bookstore.point.dto.response.GetPointTypeResponse;
+import com.nhnacademy.twojopingback.point.dto.response.GetPointTypeResponse;
 
 import java.util.List;
 

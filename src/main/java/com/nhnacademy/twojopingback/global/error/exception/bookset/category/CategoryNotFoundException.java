@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.global.error.exception.bookset.category;
 
-import com.nhnacademy.bookstore.common.error.exception.base.NotFoundException;
+import com.nhnacademy.twojopingback.global.error.exception.base.NotFoundException;
 
 /**
  * 카테고리가 없을 경우 발생시키는 에러

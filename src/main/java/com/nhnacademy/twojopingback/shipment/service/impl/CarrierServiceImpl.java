@@ -1,12 +1,12 @@
 package com.nhnacademy.twojopingback.shipment.service.impl;
 
-import com.nhnacademy.bookstore.common.error.exception.shipment.CarrierNotFoundException;
-import com.nhnacademy.bookstore.shipment.dto.request.CarrierRequestDto;
-import com.nhnacademy.bookstore.shipment.dto.response.CarrierResponseDto;
-import com.nhnacademy.bookstore.shipment.entity.Carrier;
-import com.nhnacademy.bookstore.shipment.mapper.CarrierMapper;
-import com.nhnacademy.bookstore.shipment.repository.CarrierRepository;
-import com.nhnacademy.bookstore.shipment.service.CarrierService;
+import com.nhnacademy.twojopingback.global.error.exception.shipment.CarrierNotFoundException;
+import com.nhnacademy.twojopingback.shipment.dto.request.CarrierRequestDto;
+import com.nhnacademy.twojopingback.shipment.dto.response.CarrierResponseDto;
+import com.nhnacademy.twojopingback.shipment.entity.Carrier;
+import com.nhnacademy.twojopingback.shipment.mapper.CarrierMapper;
+import com.nhnacademy.twojopingback.shipment.repository.CarrierRepository;
+import com.nhnacademy.twojopingback.shipment.service.CarrierService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

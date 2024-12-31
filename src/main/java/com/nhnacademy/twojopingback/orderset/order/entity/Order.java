@@ -1,20 +1,11 @@
 package com.nhnacademy.twojopingback.orderset.order.entity;
 
-
-/**
- * 주문 Entity
- *
- * @author : 이유현
- * @date : 2024-10-22
- */
-
-
-import com.nhnacademy.bookstore.coupon.entity.member.MemberCoupon;
-import com.nhnacademy.bookstore.orderset.order.dto.request.OrderPostRequest;
-import com.nhnacademy.bookstore.orderset.order.dto.request.OrderRequest;
-import com.nhnacademy.bookstore.orderset.orderdetail.entity.OrderDetail;
-import com.nhnacademy.bookstore.orderset.orderstate.entity.OrderState;
-import com.nhnacademy.bookstore.user.customer.entity.Customer;
+import com.nhnacademy.twojopingback.coupon.entity.member.MemberCoupon;
+import com.nhnacademy.twojopingback.orderset.order.dto.request.OrderPostRequest;
+import com.nhnacademy.twojopingback.orderset.order.dto.request.OrderRequest;
+import com.nhnacademy.twojopingback.orderset.orderdetail.entity.OrderDetail;
+import com.nhnacademy.twojopingback.orderset.orderstate.entity.OrderState;
+import com.nhnacademy.twojopingback.user.customer.entity.Customer;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

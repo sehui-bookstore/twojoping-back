@@ -1,8 +1,8 @@
 package com.nhnacademy.twojopingback.bookset.publisher.repository;
 
-import com.nhnacademy.bookstore.bookset.publisher.dto.response.PublisherResponseDto;
-import com.nhnacademy.bookstore.bookset.publisher.entity.Publisher;
-import com.nhnacademy.bookstore.bookset.publisher.entity.QPublisher;
+import com.nhnacademy.twojopingback.bookset.publisher.dto.response.PublisherResponseDto;
+import com.nhnacademy.twojopingback.bookset.publisher.entity.Publisher;
+import com.nhnacademy.twojopingback.bookset.publisher.entity.QPublisher;
 import com.querydsl.core.types.Projections;
 import com.querydsl.jpa.impl.JPAQuery;
 import jakarta.persistence.EntityManager;

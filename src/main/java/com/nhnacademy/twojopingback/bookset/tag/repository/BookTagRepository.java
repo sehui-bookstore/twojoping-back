@@ -1,7 +1,7 @@
 package com.nhnacademy.twojopingback.bookset.tag.repository;
 
-import com.nhnacademy.bookstore.bookset.book.entity.Book;
-import com.nhnacademy.bookstore.bookset.tag.entity.BookTag;
+import com.nhnacademy.twojopingback.bookset.book.entity.Book;
+import com.nhnacademy.twojopingback.bookset.tag.entity.BookTag;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface BookTagRepository extends JpaRepository<BookTag, BookTag.BookTagId> {

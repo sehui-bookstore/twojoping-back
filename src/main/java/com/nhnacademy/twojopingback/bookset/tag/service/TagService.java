@@ -1,7 +1,7 @@
 package com.nhnacademy.twojopingback.bookset.tag.service;
 
-import com.nhnacademy.bookstore.bookset.tag.dto.TagRequestDto;
-import com.nhnacademy.bookstore.bookset.tag.dto.TagResponseDto;
+import com.nhnacademy.twojopingback.bookset.tag.dto.TagRequestDto;
+import com.nhnacademy.twojopingback.bookset.tag.dto.TagResponseDto;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,8 +1,8 @@
 package com.nhnacademy.twojopingback.cart.repository;
 
 
-import com.nhnacademy.bookstore.cart.entity.Cart;
-import com.nhnacademy.bookstore.cart.entity.CartId;
+import com.nhnacademy.twojopingback.cart.entity.Cart;
+import com.nhnacademy.twojopingback.cart.entity.CartId;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

@@ -18,14 +18,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-/**
- * 출판사 Controller
- *
- * @author : 이유현
- * @date : 2024.10.23
- */
-
-
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/v1/bookstore")

@@ -1,8 +1,8 @@
 package com.nhnacademy.twojopingback.point.repository.Impl;
 
-import com.nhnacademy.bookstore.point.dto.response.GetPointTypeResponse;
-import com.nhnacademy.bookstore.point.entity.QPointType;
-import com.nhnacademy.bookstore.point.repository.PointTypeRepositoryCustom;
+import com.nhnacademy.twojopingback.point.dto.response.GetPointTypeResponse;
+import com.nhnacademy.twojopingback.point.entity.QPointType;
+import com.nhnacademy.twojopingback.point.repository.PointTypeRepositoryCustom;
 import com.querydsl.core.types.Projections;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import lombok.RequiredArgsConstructor;

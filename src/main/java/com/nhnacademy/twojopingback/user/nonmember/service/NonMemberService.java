@@ -1,10 +1,10 @@
 package com.nhnacademy.twojopingback.user.nonmember.service;
 
-import com.nhnacademy.bookstore.common.error.exception.user.customer.CustomerNotFoundException;
-import com.nhnacademy.bookstore.user.customer.entity.Customer;
-import com.nhnacademy.bookstore.user.customer.repository.CustomerRepository;
-import com.nhnacademy.bookstore.user.nonmember.entity.NonMember;
-import com.nhnacademy.bookstore.user.nonmember.repository.NonMemberRepository;
+import com.nhnacademy.twojopingback.global.error.exception.user.customer.CustomerNotFoundException;
+import com.nhnacademy.twojopingback.user.customer.entity.Customer;
+import com.nhnacademy.twojopingback.user.customer.repository.CustomerRepository;
+import com.nhnacademy.twojopingback.user.nonmember.entity.NonMember;
+import com.nhnacademy.twojopingback.user.nonmember.repository.NonMemberRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;

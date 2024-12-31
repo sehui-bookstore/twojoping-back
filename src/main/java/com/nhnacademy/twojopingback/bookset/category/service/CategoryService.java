@@ -1,8 +1,8 @@
 package com.nhnacademy.twojopingback.bookset.category.service;
 
-import com.nhnacademy.bookstore.bookset.category.dto.request.CategoryRequestDto;
-import com.nhnacademy.bookstore.bookset.category.dto.response.CategoryIsActiveResponseDto;
-import com.nhnacademy.bookstore.bookset.category.dto.response.CategoryResponseDto;
+import com.nhnacademy.twojopingback.bookset.category.dto.request.CategoryRequestDto;
+import com.nhnacademy.twojopingback.bookset.category.dto.response.CategoryIsActiveResponseDto;
+import com.nhnacademy.twojopingback.bookset.category.dto.response.CategoryResponseDto;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;

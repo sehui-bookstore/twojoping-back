@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.imageset.entity;
 
-import com.nhnacademy.bookstore.admin.wrap.entity.Wrap;
+import com.nhnacademy.twojopingback.admin.wrap.entity.Wrap;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;

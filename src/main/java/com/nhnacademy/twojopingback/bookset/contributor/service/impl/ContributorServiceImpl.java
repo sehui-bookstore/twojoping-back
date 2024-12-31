@@ -10,9 +10,9 @@ import com.nhnacademy.twojopingback.bookset.contributor.mapper.ContributorMapper
 import com.nhnacademy.twojopingback.bookset.contributor.repository.ContributorRepository;
 import com.nhnacademy.twojopingback.bookset.contributor.repository.ContributorRoleRepository;
 import com.nhnacademy.twojopingback.bookset.contributor.service.ContributorService;
-import com.nhnacademy.twojopingback.common.error.exception.bookset.contributor.ContributorIsDeactivateException;
-import com.nhnacademy.twojopingback.common.error.exception.bookset.contributor.ContributorNotFoundException;
-import com.nhnacademy.twojopingback.common.error.exception.bookset.contributor.ContributorRoleNotFoundException;
+import com.nhnacademy.twojopingback.global.error.exception.bookset.contributor.ContributorIsDeactivateException;
+import com.nhnacademy.twojopingback.global.error.exception.bookset.contributor.ContributorNotFoundException;
+import com.nhnacademy.twojopingback.global.error.exception.bookset.contributor.ContributorRoleNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

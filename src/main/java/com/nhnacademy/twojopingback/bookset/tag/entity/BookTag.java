@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.bookset.tag.entity;
 
-import com.nhnacademy.bookstore.bookset.book.entity.Book;
+import com.nhnacademy.twojopingback.bookset.book.entity.Book;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

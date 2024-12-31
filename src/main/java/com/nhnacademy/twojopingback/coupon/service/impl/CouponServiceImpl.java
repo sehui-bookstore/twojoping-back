@@ -1,17 +1,17 @@
 package com.nhnacademy.twojopingback.coupon.service.impl;
 
 
-import com.nhnacademy.bookstore.common.error.enums.RedirectType;
-import com.nhnacademy.bookstore.common.error.exception.coupon.CouponPolicyNotFoundException;
-import com.nhnacademy.bookstore.common.error.exception.coupon.DuplicateCouponNameException;
-import com.nhnacademy.bookstore.coupon.dto.request.CouponRequestDto;
-import com.nhnacademy.bookstore.coupon.dto.response.CouponResponseDto;
-import com.nhnacademy.bookstore.coupon.entity.Coupon;
-import com.nhnacademy.bookstore.coupon.entity.CouponPolicy;
-import com.nhnacademy.bookstore.coupon.mapper.CouponMapper;
-import com.nhnacademy.bookstore.coupon.repository.coupon.CouponRepository;
-import com.nhnacademy.bookstore.coupon.repository.policy.CouponPolicyRepository;
-import com.nhnacademy.bookstore.coupon.service.CouponService;
+import com.nhnacademy.twojopingback.global.error.enums.RedirectType;
+import com.nhnacademy.twojopingback.global.error.exception.coupon.CouponPolicyNotFoundException;
+import com.nhnacademy.twojopingback.global.error.exception.coupon.DuplicateCouponNameException;
+import com.nhnacademy.twojopingback.coupon.dto.request.CouponRequestDto;
+import com.nhnacademy.twojopingback.coupon.dto.response.CouponResponseDto;
+import com.nhnacademy.twojopingback.coupon.entity.Coupon;
+import com.nhnacademy.twojopingback.coupon.entity.CouponPolicy;
+import com.nhnacademy.twojopingback.coupon.mapper.CouponMapper;
+import com.nhnacademy.twojopingback.coupon.repository.coupon.CouponRepository;
+import com.nhnacademy.twojopingback.coupon.repository.policy.CouponPolicyRepository;
+import com.nhnacademy.twojopingback.coupon.service.CouponService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

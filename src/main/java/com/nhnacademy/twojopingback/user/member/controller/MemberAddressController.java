@@ -1,13 +1,13 @@
 package com.nhnacademy.twojopingback.user.member.controller;
 
-import com.nhnacademy.bookstore.common.error.exception.user.address.AddressLimitToTenException;
-import com.nhnacademy.bookstore.common.error.exception.user.member.MemberNotFoundException;
-import com.nhnacademy.bookstore.user.member.dto.request.AddressUpdateRequestDto;
-import com.nhnacademy.bookstore.user.member.dto.request.MemberAddressRequestDto;
-import com.nhnacademy.bookstore.user.member.dto.response.address.AddressDeleteResponseDto;
-import com.nhnacademy.bookstore.user.member.dto.response.address.AddressUpdateResponseDto;
-import com.nhnacademy.bookstore.user.member.dto.response.address.MemberAddressResponseDto;
-import com.nhnacademy.bookstore.user.member.service.MemberAddressService;
+import com.nhnacademy.twojopingback.global.error.exception.user.address.AddressLimitToTenException;
+import com.nhnacademy.twojopingback.global.error.exception.user.member.MemberNotFoundException;
+import com.nhnacademy.twojopingback.user.member.dto.request.AddressUpdateRequestDto;
+import com.nhnacademy.twojopingback.user.member.dto.request.MemberAddressRequestDto;
+import com.nhnacademy.twojopingback.user.member.dto.response.address.AddressDeleteResponseDto;
+import com.nhnacademy.twojopingback.user.member.dto.response.address.AddressUpdateResponseDto;
+import com.nhnacademy.twojopingback.user.member.dto.response.address.MemberAddressResponseDto;
+import com.nhnacademy.twojopingback.user.member.service.MemberAddressService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;

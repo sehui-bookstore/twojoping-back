@@ -1,16 +1,16 @@
 package com.nhnacademy.twojopingback.review.repository;
 
-import com.nhnacademy.bookstore.bookset.book.entity.QBook;
-import com.nhnacademy.bookstore.imageset.entity.QImage;
-import com.nhnacademy.bookstore.imageset.entity.QReviewImage;
-import com.nhnacademy.bookstore.orderset.order.entity.QOrder;
-import com.nhnacademy.bookstore.orderset.orderdetail.entity.QOrderDetail;
-import com.nhnacademy.bookstore.review.dto.response.ReviewResponseDto;
-import com.nhnacademy.bookstore.review.dto.response.ReviewTotalResponseDto;
-import com.nhnacademy.bookstore.review.entity.QReview;
-import com.nhnacademy.bookstore.review.entity.Review;
-import com.nhnacademy.bookstore.user.customer.entity.QCustomer;
-import com.nhnacademy.bookstore.user.member.entity.QMember;
+import com.nhnacademy.twojopingback.bookset.book.entity.QBook;
+import com.nhnacademy.twojopingback.imageset.entity.QImage;
+import com.nhnacademy.twojopingback.imageset.entity.QReviewImage;
+import com.nhnacademy.twojopingback.orderset.order.entity.QOrder;
+import com.nhnacademy.twojopingback.orderset.orderdetail.entity.QOrderDetail;
+import com.nhnacademy.twojopingback.review.dto.response.ReviewResponseDto;
+import com.nhnacademy.twojopingback.review.dto.response.ReviewTotalResponseDto;
+import com.nhnacademy.twojopingback.review.entity.QReview;
+import com.nhnacademy.twojopingback.review.entity.Review;
+import com.nhnacademy.twojopingback.user.customer.entity.QCustomer;
+import com.nhnacademy.twojopingback.user.member.entity.QMember;
 import com.querydsl.core.Tuple;
 import com.querydsl.core.types.Projections;
 import org.springframework.data.domain.Page;

@@ -1,7 +1,7 @@
 package com.nhnacademy.twojopingback.bookset.contributor.service;
 
-import com.nhnacademy.bookstore.bookset.contributor.dto.request.ContributorRoleRequestDto;
-import com.nhnacademy.bookstore.bookset.contributor.dto.response.ContributorRoleResponseDto;
+import com.nhnacademy.twojopingback.bookset.contributor.dto.request.ContributorRoleRequestDto;
+import com.nhnacademy.twojopingback.bookset.contributor.dto.response.ContributorRoleResponseDto;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,13 +1,13 @@
 package com.nhnacademy.twojopingback.bookset.contributor.controller;
 
-import com.nhnacademy.bookstore.bookset.contributor.dto.request.ContributorRequestDto;
-import com.nhnacademy.bookstore.bookset.contributor.dto.response.ContributorIsActiveResponseDto;
-import com.nhnacademy.bookstore.bookset.contributor.dto.response.ContributorNameRoleResponseDto;
-import com.nhnacademy.bookstore.bookset.contributor.dto.response.ContributorResponseDto;
-import com.nhnacademy.bookstore.bookset.contributor.service.ContributorService;
-import com.nhnacademy.bookstore.common.annotation.ValidPathVariable;
-import com.nhnacademy.bookstore.common.error.exception.bookset.contributor.ContributorIsDeactivateException;
-import com.nhnacademy.bookstore.common.error.exception.bookset.contributor.ContributorNotFoundException;
+import com.nhnacademy.twojopingback.bookset.contributor.dto.request.ContributorRequestDto;
+import com.nhnacademy.twojopingback.bookset.contributor.dto.response.ContributorIsActiveResponseDto;
+import com.nhnacademy.twojopingback.bookset.contributor.dto.response.ContributorNameRoleResponseDto;
+import com.nhnacademy.twojopingback.bookset.contributor.dto.response.ContributorResponseDto;
+import com.nhnacademy.twojopingback.bookset.contributor.service.ContributorService;
+import com.nhnacademy.twojopingback.global.annotation.ValidPathVariable;
+import com.nhnacademy.twojopingback.global.error.exception.bookset.contributor.ContributorIsDeactivateException;
+import com.nhnacademy.twojopingback.global.error.exception.bookset.contributor.ContributorNotFoundException;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;

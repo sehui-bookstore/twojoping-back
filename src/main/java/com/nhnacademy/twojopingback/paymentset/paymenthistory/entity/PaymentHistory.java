@@ -1,8 +1,8 @@
 package com.nhnacademy.twojopingback.paymentset.paymenthistory.entity;
 
-import com.nhnacademy.bookstore.orderset.order.entity.Order;
-import com.nhnacademy.bookstore.paymentset.paymentmethod.entity.PaymentMethod;
-import com.nhnacademy.bookstore.paymentset.status.entity.PaymentStatus;
+import com.nhnacademy.twojopingback.orderset.order.entity.Order;
+import com.nhnacademy.twojopingback.paymentset.paymentmethod.entity.PaymentMethod;
+import com.nhnacademy.twojopingback.paymentset.status.entity.PaymentStatus;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

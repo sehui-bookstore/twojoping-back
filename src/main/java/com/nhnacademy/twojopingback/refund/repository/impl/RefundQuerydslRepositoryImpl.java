@@ -1,12 +1,12 @@
 package com.nhnacademy.twojopingback.refund.repository.impl;
 
-import com.nhnacademy.bookstore.bookset.book.entity.QBook;
-import com.nhnacademy.bookstore.orderset.order.entity.QOrder;
-import com.nhnacademy.bookstore.orderset.orderdetail.entity.QOrderDetail;
-import com.nhnacademy.bookstore.refund.dto.response.RefundResponseDto;
-import com.nhnacademy.bookstore.refund.entity.QRefundHistory;
-import com.nhnacademy.bookstore.refund.entity.QRefundPolicy;
-import com.nhnacademy.bookstore.refund.repository.RefundQuerydslRepository;
+import com.nhnacademy.twojopingback.bookset.book.entity.QBook;
+import com.nhnacademy.twojopingback.orderset.order.entity.QOrder;
+import com.nhnacademy.twojopingback.orderset.orderdetail.entity.QOrderDetail;
+import com.nhnacademy.twojopingback.refund.dto.response.RefundResponseDto;
+import com.nhnacademy.twojopingback.refund.entity.QRefundHistory;
+import com.nhnacademy.twojopingback.refund.entity.QRefundPolicy;
+import com.nhnacademy.twojopingback.refund.repository.RefundQuerydslRepository;
 import com.querydsl.core.types.Projections;
 import com.querydsl.core.types.dsl.Expressions;
 import com.querydsl.jpa.impl.JPAQueryFactory;

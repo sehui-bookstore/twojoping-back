@@ -1,8 +1,8 @@
 package com.nhnacademy.twojopingback.coupon.controller;
 
-import com.nhnacademy.bookstore.coupon.dto.response.MemberCouponResponseDto;
-import com.nhnacademy.bookstore.coupon.dto.response.OrderCouponResponse;
-import com.nhnacademy.bookstore.coupon.service.MemberCouponService;
+import com.nhnacademy.twojopingback.coupon.dto.response.MemberCouponResponseDto;
+import com.nhnacademy.twojopingback.coupon.dto.response.OrderCouponResponse;
+import com.nhnacademy.twojopingback.coupon.service.MemberCouponService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

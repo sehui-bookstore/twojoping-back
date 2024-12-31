@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.user.member.repository;
 
-import com.nhnacademy.bookstore.user.member.entity.MemberAddress;
+import com.nhnacademy.twojopingback.user.member.entity.MemberAddress;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

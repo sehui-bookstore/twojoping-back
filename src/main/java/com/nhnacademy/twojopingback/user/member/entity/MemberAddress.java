@@ -1,7 +1,7 @@
 package com.nhnacademy.twojopingback.user.member.entity;
 
-import com.nhnacademy.bookstore.user.member.dto.request.AddressUpdateRequestDto;
-import com.nhnacademy.bookstore.user.member.dto.request.MemberAddressRequestDto;
+import com.nhnacademy.twojopingback.user.member.dto.request.AddressUpdateRequestDto;
+import com.nhnacademy.twojopingback.user.member.dto.request.MemberAddressRequestDto;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

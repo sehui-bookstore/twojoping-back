@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.bookset.contributor.repository;
 
-import com.nhnacademy.bookstore.bookset.contributor.entity.ContributorRole;
+import com.nhnacademy.twojopingback.bookset.contributor.entity.ContributorRole;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.point.dto.request;
 
-import com.nhnacademy.bookstore.point.entity.PointType;
+import com.nhnacademy.twojopingback.point.entity.PointType;
 import jakarta.annotation.Nullable;
 
 import java.time.LocalDateTime;

@@ -1,7 +1,6 @@
 package com.nhnacademy.twojopingback.imageset.entity;
 
-
-import com.nhnacademy.bookstore.review.entity.Review;
+import com.nhnacademy.twojopingback.review.entity.Review;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;

@@ -1,8 +1,8 @@
 package com.nhnacademy.twojopingback.shipment.service;
 
-import com.nhnacademy.bookstore.shipment.dto.request.ShipmentPolicyRequestDto;
-import com.nhnacademy.bookstore.shipment.dto.response.ShipmentPolicyResponseDto;
-import com.nhnacademy.bookstore.shipment.dto.response.ShippingFeeResponseDto;
+import com.nhnacademy.twojopingback.shipment.dto.request.ShipmentPolicyRequestDto;
+import com.nhnacademy.twojopingback.shipment.dto.response.ShipmentPolicyResponseDto;
+import com.nhnacademy.twojopingback.shipment.dto.response.ShippingFeeResponseDto;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

@@ -1,6 +1,6 @@
 package com.nhnacademy.twojopingback.coupon.repository.member;
 
-import com.nhnacademy.bookstore.coupon.entity.member.MemberCoupon;
+import com.nhnacademy.twojopingback.coupon.entity.member.MemberCoupon;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

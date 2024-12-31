@@ -1,8 +1,8 @@
 package com.nhnacademy.twojopingback.imageset.repository;
 
-import com.nhnacademy.bookstore.bookset.book.entity.Book;
-import com.nhnacademy.bookstore.imageset.entity.BookImage;
-import com.nhnacademy.bookstore.imageset.entity.Image;
+import com.nhnacademy.twojopingback.bookset.book.entity.Book;
+import com.nhnacademy.twojopingback.imageset.entity.BookImage;
+import com.nhnacademy.twojopingback.imageset.entity.Image;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
