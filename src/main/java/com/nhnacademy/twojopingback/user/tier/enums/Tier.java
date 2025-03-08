@@ -14,6 +14,7 @@ import lombok.Getter;
  */
 @Getter
 public enum Tier {
+
     NORMAL("일반"),
     ROYAL("로얄"),
     GOLD("골드"),
@@ -29,6 +30,7 @@ public enum Tier {
     public String getKoreanName() {
         return koreanName;
     }
+
     @Override
     public String toString() {
         return koreanName; // 기본 출력은 한글로

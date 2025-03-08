@@ -1,10 +1,10 @@
 package com.nhnacademy.twojopingback.point.service.impl;
 
-import com.nhnacademy.bookstore.point.dto.request.CreateOrderPointHistoryRequest;
-import com.nhnacademy.bookstore.point.dto.request.CreatePointUseHistoryUseRequest;
-import com.nhnacademy.bookstore.point.dto.request.CreateReviewPointHistoryRequest;
-import com.nhnacademy.bookstore.point.entity.PointHistory;
-import com.nhnacademy.bookstore.point.repository.PointHistoryRepository;
+import com.nhnacademy.twojopingback.point.dto.request.CreateOrderPointHistoryRequest;
+import com.nhnacademy.twojopingback.point.dto.request.CreatePointUseHistoryUseRequest;
+import com.nhnacademy.twojopingback.point.dto.request.CreateReviewPointHistoryRequest;
+import com.nhnacademy.twojopingback.point.entity.PointHistory;
+import com.nhnacademy.twojopingback.point.repository.PointHistoryRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
